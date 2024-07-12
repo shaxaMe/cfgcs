@@ -1,0 +1,581 @@
+setburst ak47         1      10    1     0     0      0 
+setburst awp          1      1     8     2     0      0 
+setburst deagle       1      999   0.01  0.01  0      0
+setburst glock18      1      999   0.01  0.01  0      0
+setburst m4a1         1      10    1     0     0      0
+setburst usp          1      999   0.01  0.01  0      0
+
+ak47 1 10 1 0 0.05 0 
+ak47 2 20 0.25 0.35 0.05 0 
+ak47 3 50 0.15 0.45 0.05 4
+ak47 4 999 0.07 0.4 0.05 52 
+deagle 1 999 0.01 0.01 0.02 0
+usp 1 999 0.01 0.01 0.02 0
+
+
+unbindall
+bind "TAB" "+showscores"
+bind "ENTER" "adjust_crosshair"
+bind "ESCAPE" "cancelselect"
+bind "SPACE" "+jump"
+bind "'" "+moveup"
+bind "+" "sizeup"
+bind "," "buyammo1"
+bind "-" "sizedown"
+bind "." "buyammo2"
+bind "/" "+movedown"
+bind "0" "slot10"
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "7" "slot7"
+bind "8" "slot8"
+bind "9" "slot9"
+bind ";" "+mlook"
+bind "=" "sizeup"
+bind "[" "invprev"
+bind "]" "invnext"
+bind "`" "toggleconsole"
+bind "a" "+moveleft"
+bind "b" "buy"
+bind "c" "radio3"
+bind "d" "+moveright"
+bind "e" "+use"
+bind "f" "impulse 100"
+bind "g" "drop"
+bind "h" "+commandmenu"
+bind "i" "showbriefing"
+bind "j" "cheer"
+bind "k" "+voicerecord"
+bind "m" "chooseteam"
+bind "n" "nightvision"
+bind "o" "buyequip"
+bind "q" "lastinv"
+bind "r" "+reload"
+bind "s" "+back"
+bind "t" "impulse 201"
+bind "u" "messagemode2"
+bind "w" "+forward"
+bind "x" "radio2"
+bind "y" "messagemode"
+bind "z" "radio1"
+bind "~" "toggleconsole"
+bind "UPARROW" "+forward"
+bind "DOWNARROW" "+back"
+bind "LEFTARROW" "+left"
+bind "RIGHTARROW" "+right"
+bind "ALT" "+strafe"
+bind "CTRL" "+duck"
+bind "SHIFT" "+speed"
+bind "F1" "autobuy"
+bind "F2" "rebuy"
+bind "F5" "snapshot"
+bind "F6" "save quick"
+bind "F7" "load quick"
+bind "INS" "+klook"
+bind "PGDN" "+lookdown"
+bind "PGUP" "+lookup"
+bind "END" "centerview"
+bind "MWHEELDOWN" "+duck"
+bind "MWHEELUP" "+jump"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "PAUSE" "pause"
+_cl_autowepswitch "1"
+_snd_mixahead "0.1"
+ati_npatch "0"
+ati_subdiv "0"
+bgmvolume "1.000000"
+bottomcolor "0"
+brightness "10"
+cl_allowdownload "1"
+cl_allowupload "1"
+cl_backspeed "400"
+cl_cmdbackup "20"
+cl_cmdrate "101"
+cl_corpsestay "600"
+cl_crosshair_color "50 250 50"
+cl_crosshair_size "small"
+cl_crosshair_translucent "0"
+cl_dlmax "96"
+cl_download_ingame "1"
+cl_dynamiccrosshair "0"
+cl_forwardspeed "400"
+cl_himodels "0"
+cl_idealpitchscale "0.8"
+cl_lc "1"
+cl_logocolor "#Valve_Red"
+cl_logofile "skull"
+cl_lw "1"
+cl_minmodels "1"
+cl_radartype "0"
+cl_righthand "1"
+cl_shadows "1"
+cl_timeout "35"
+cl_updaterate "101"
+cl_vsmoothing "0.05"
+cl_weather "1"
+con_color "255 180 30"
+console "0.000000"
+crosshair "1.000000"
+fastsprites "0"
+fps_max "101"
+fps_modem "0.0"
+gamma "3"
+gl_dither "1"
+gl_flipmatrix "0"
+gl_fog "1"
+gl_monolights "0"
+gl_overbright "0"
+gl_polyoffset "0.1"
+hisound "1"
+hpk_maxsize "4"
+hud_capturemouse "1"
+hud_centerid "1"
+hud_draw "1"
+hud_fastswitch "1"
+hud_saytext_internal "1"
+hud_takesshots "0"
+joystick "0"
+lookspring "0"
+lookstrafe "0"
+m_filter "0"
+m_forward "1"
+m_pitch "0.022"
+m_side "0.8"
+m_yaw "0.022"
+model "arctic"
+MP3FadeTime "2.0"
+MP3Volume "0.110000"
+mp_decals "300"
+name "2929GETf"
+net_graph "3"
+net_graphpos "1"
+net_scale "5"
+r_bmodelhighfrac "5.0"
+r_detailtextures "0"
+s_a3d "0.0"
+s_automax_distance "30"
+s_automin_distance "2"
+s_bloat "2.0"
+s_distance "60"
+s_doppler "0.0"
+s_eax "0.0"
+s_leafnum "0"
+s_max_distance "1000"
+s_min_distance "5"
+s_numpolys "200"
+s_polykeep "1000000000"
+s_polysize "10000000"
+s_refdelay "4"
+s_refgain "0.4"
+s_rolloff "1.0"
+s_verbwet "0.25"
+sensitivity "2.35"
+skin ""
+spec_autodirector_internal "1"
+spec_drawcone_internal "1"
+spec_drawnames_internal "1"
+spec_drawstatus_internal "1"
+spec_mode_internal "4"
+spec_pip "0"
+suitvolume "0.25"
+sv_aim "0"
+sv_voiceenable "1"
+team ""
+topcolor "0"
+viewsize "110"
+voice_enable "1"
+voice_forcemicrecord "1"
+voice_modenable "0"
+voice_scale "2"
+volume "0.1"
+setinfo "_ah" "0"
+setinfo "_vgui_menus" "0"
+setinfo "lang" "sv"
++mlook
+exec userconfig.cfg
+
+#[--------------------2929 Production----------------------]#
+
+alias +nattack1 "zoolrotate1;#+attack"
+alias -nattack1 "#-attack;alias +nattack +nattack2;alias -nattack -nattack2"
+alias +nattack2 "zoolrotate2;#+attack"
+alias -nattack2 "#-attack;alias +nattack +nattack3;alias -nattack -nattack3"
+alias +nattack3 "zoolrotate1;#+attack"
+alias -nattack3 "#-attack;alias +nattack +nattack4;alias -nattack -nattack4"
+alias +nattack4 "zoolrotate3;#+attack"
+alias -nattack4 "#-attack;alias +nattack +nattack1;alias -nattack -nattack1"
+alias nattackbind "#unbind mouse1;unbind mouse1;bind mouse1 +nattack;alias nattack_switch attackbind;txt ZooL's ABC Rotate Vec Script --ACTIVATED--"
+alias attackbind "#unbind mouse1;unbind mouse1;#bind mouse1 +attack;alias nattack_switch nattackbind;txt ZooL's ABC Rotate Vec Script --DEACTIVATED--"
+alias +nattack "+nattack1"
+alias -nattack "-nattack1"
+alias nattack_switch "nattackbind"
+
+#[--------------------2929 Production----------------------]#
+
+//aiming F-Center-Front-Back-Left-Right
+
+//4.60build2 Took it out cause it sucked-Left it in the file for use later
+
+alias 600avSfhead "600avSheadFc"
+alias 600avDfhead "600avDheadFc"
+//; 600avSheadFf; 600avSheadFb; 600avSheadFl; 600avSheadFr
+//; 600avDheadFf; 600avDheadFb; 600avDheadFl; 600avDheadFr
+//aiming B-Center-Front-Back-Left-Right
+alias 600avSbhead "600avSheadc"
+alias 600avDbhead "600avDheadc"
+//; 600avSheadf; 600avSheadb; 600avSheadl; 600avSheadr
+//; 600avDheadf; 600avDheadb; 600avDheadl; 600avDheadr
+//aiming A-Center-Front-Back-Left-Right
+alias 600avSahead "600avSheadbc"
+alias 600avDahead "600avDheadbc"
+//; 600avSheadbf; 600avSheadbb; 600avSheadbl; 600avSheadbr
+//; 600avDheadbf; 600avDheadbb; 600avDheadbl; 600avDheadbr
+
+//Absolution F -medium
+alias 600avDheadFc "600avadd 1 21 4 4"   
+alias 600avSheadFc "600avadd 0 22 8 4" 
+//alias 600avDheadFl "600avadd 1 25.5 4 1.5"   
+//alias 600avSheadFl "600avadd 0 20.7 7 1.5" 
+//alias 600avDheadFr "600avadd 1 25.5 4 -1.5"   
+//alias 600avSheadFr "600avadd 0 20.7 7 -1.5" 
+//alias 600avDheadFb "600avadd 1 25.5 6 0"   
+//alias 600avSheadFb "600avadd 0 20.7 9 0" 
+//alias 600avDheadFf "600avadd 1 25.5 2 0"   
+//alias 600avSheadFf "600avadd 0 20.7 5 0" 
+
+//Absolution B -high
+alias 600avDheadc "600avadd 1 21 4 4"   
+alias 600avSheadc "600avadd 0 24 8 4"  
+//alias 600avDheadl "600avadd 1 24.3 4 1.5"   
+//alias 600avSheadl "600avadd 0 22.0 7 1.5"  
+//alias 600avDheadr "600avadd 1 24.3 4 -1.5"   
+//alias 600avSheadr "600avadd 0 22.0 7 -1.5"  
+//alias 600avDheadb "600avadd 1 24.3 6 0"   
+//alias 600avSheadb "600avadd 0 22.0 9 0"  
+//alias 600avDheadf "600avadd 1 24.3 2 0"   
+//alias 600avSheadf "600avadd 0 22.0 5 0"  
+
+//Absolution A -low
+alias 600avDheadbc "600avadd 1 21 4 4"   
+alias 600avSheadbc "600avadd 0 18 8 4" 
+//alias 600avDheadbl "600avadd 1 21.8 4 1.5"   
+//alias 600avSheadbl "600avadd 0 19.8 8 1.5" 
+//alias 600avDheadbr "600avadd 1 21.8 4 -1.5"   
+//alias 600avSheadbr "600avadd 0 19.8 8 -1.5" 
+//alias 600avDheadbb "600avadd 1 21.8 6 0"    
+//alias 600avSheadbb "600avadd 0 19.8 10 0" 
+//alias 600avDheadbf "600avadd 1 21.8 2 0"   
+//alias 600avSheadbf "600avadd 0 19.8 6 0" 
+
+alias 600avSheadq "600avadd 1 21 7 0 "  
+alias 600avDheadq "600avadd 0 19 7 0"  
+
+
+alias 600avSheadxm "600avadd 0 19 7 0"  
+alias 600avDheadxm "600avadd 1 25 7 0"  
+
+
+alias 600avSheadDoc "600avadd 0 25 12 0"     
+alias 600avSchest   "600avadd 0 12 3.5 0"   
+alias 600avScrotch  "600avadd 0 -5 -2 0"    
+alias 600avSlthigh  "600avadd 0 -9 -2 6"    
+alias 600avSrthigh  "600avadd 0 -9 2 -4"    
+alias 600avSlshin   "600avadd 0 -24 -4 6.5" 
+alias 600avSrshin   "600avadd 0 -22 7 -4"   
+alias 600avSlfoot   "600avadd 0 -32 -7 5"   
+alias 600avSrfoot   "600avadd 0 -33 5 -4"   
+//alias 600avSheadf   "600avadd 0 25 5 2"     
+alias 600avSrarm "600avadd 0 13.5 6 6"     
+alias 600avSlarm "600avadd 0 13.5 6 -6"     
+
+// ...and ducking targets
+alias 600avDheadDoc "600avadd 1 30 3 0"     
+alias 600avDchest "600avadd 1 15 -2 -4"    
+alias 600avDcrotch "600avadd 1 8 -3.5 -2"    
+alias 600avDlthigh "600avadd 1 4 -16 2"    
+alias 600avDrthigh "600avadd 1 5 0 -8"     
+alias 600avDlshin "600avadd 1 -5 -12 11"   
+alias 600avDrshin "600avadd 1 -5 4 -7"    
+alias 600avDlfoot "600avadd 1 -13 -17 5"   
+alias 600avDrfoot "600avadd 1 -13 0 -7"    
+//alias 600avDheadf "600avadd 1 26 3 0.75"   
+alias 600avDrarm "600avadd 1 17 -2 5"     
+alias 600avDlarm "600avadd 1 17 -2 -5" 
+
+600setburst smokegrenade 1 999 1 0 0 2
+600setburst tmp 1 20 1 0 0 0
+600setburst tmp 2 100 0.3 0.3 0.02 0
+600setburst tmp 3 999 0.1 0.3 0.05 0
+600setburst ump45 1 40 1 0 0.05 0
+600setburst ump45 2 120 0.45 0.25 0.05 0
+600setburst ump45 3 999 0.11 0.25 0.05 0
+600setburst usp 1 999 0.01 0.01 0.02 0
+600setburst xm1014 1 999 1 0 0.2 0  
+
+#[--------------------2929 Production----------------------]#
+
+alias ci_newaim "ci_sforward 9.0; ci_sheight 20.0; ci_dforward 2.0; ci_dheight 9.0; dev1; echo ALL HEADSHOTS ON (EXCELLENT)"
+alias ci_zeronew "ci_sforward 3.0; ci_sheight 26.0; ci_dforward 4.0; ci_dheight 24.0; dev1; echo New Aiming ON (GOOD); dev0"
+alias ci_newaim2 "ci_sforward  4.0; ci_sheight 19.0; ci_dforward 8.0; ci_dehight 23; dev1 ;echo Aiming At Head (GOOD)"   
+//alias ciavDheadFl "ciavadd 1 25.5 4 1.5"   
+//alias ciavSheadFl "ciavadd 0 20.7 7 1.5" 
+//alias ciavDheadFr "ciavadd 1 25.5 4 -1.5"   
+//alias ciavSheadFr "ciavadd 0 20.7 7 -1.5"  
+//alias ciavDheadFb "ciavadd 1 25.5 6 0"   
+//alias ciavSheadFb "ciavadd 0 20.7 9 0" 
+//alias ciavDheadFf "ciavadd 1 25.5 2 0"   
+//alias ciavSheadFf "ciavadd 0 20.7 5 0" 
+alias ci_hardaim "ci_sforward 6.0; ci_sheight 20.0; ci_sforward 6.0; ci_sheight 13.5; ci_sforward 6.0; ci_sheight 15; ci_sforward -3; ci_sheight 10; ci_sforward -7; ci_sheight -32; ci_sforward 5; ci_sheight -32"
+alias ci_hardaim2 "ci_dforward 3; ci_dheight 20; ci_dforward -2; ci_dheight 17; ci_dforward -5; ci_dheight 15; ci_dforward 0; ci_dheight -17; ci_dforward -16; ci_dhright -15"
+alias ci_realhardaim "ci_hardaim; ci_hardaim2; dev1; echo [H4L] Aiming At Head (GOOD); dev0"
+alias dev1 "developer 1"
+alias dev0 "developer 0"
+
+"*" "TFCFAG Pure HS" "tfcpure7"
+
+" " ">AIMBOT" {
+	" " "aim&shoot"   "aim 1;shoot 1"
+	" " "just aim"    "aim 1;shoot 0"
+	" " "both off"    "shoot 0;aim 0"
+	" " ">BURSTMODE"    {
+		" " "continuous fire"   "autoburst 0;sdelay 0.03;rdelay 0.0;dtime  0.0;ftime 1.0;burstflags 0"
+		" " "automatic burst"   "autoburst 1"
+		" " "short bursts"      "autoburst 0;sdelay 0.05;rdelay 0.0;dtime  0.5;ftime 0.1;burstflags 0"
+		" " "medium bursts"     "autoburst 0;sdelay 0.05;rdelay 0.0;dtime  0.4;ftime 0.2;burstflags 0"
+		" " "fast bursts"       "autoburst 0;sdelay 0.05;rdelay 0.0;dtime 0.25;ftime 0.1;burstflags 0"
+		} 
+	" " ">AIM AT"   {
+		" " "enemies"  "team 0"
+		" " "friends"  "team 2"
+		" " "everyone" "team 1" 
+		}
+	" " ">AIMING"   {
+		" " "Toker Head"               "tokerhead"
+		" " "Toker Throat"	       "tokerthroat"
+		" " "Absoulution High Head"    "avheadb"
+                " " "Absoulution Medium Head"  "avheadf"
+		" " "Absoulution Low Head"     "avhead"
+		" " "g0d Supreme"	       "SIRAimSupreme"
+		" " "g0d Aim"		       "SIRAim"
+		" " "OGC 4.3 Chest"            "ogc43chest"
+		" " "Bunny771 Head"            "headbunny"
+		" " "Bunny771 Heart"           "heartbunny"		
+		}
+	" " ">MORE AIMING"  	{
+		" " "Zero-Bad Ass"	        "zbadassdone"
+		" " "Zero-Secret"		"zeroHead"
+		" " "Zero-Head"			"newzer0"
+		" " "Zero-Most Head"		"newzero"
+		" " "X-Mib A"  		        "avheadxm"	
+		" " "X-Mib B"                   "avheadmm"
+		" " "XHack 1.6 Head"            "xhackhead" 
+		" " "Sphere 1.0.0.5 Head1"      "spherehead"	
+		" " "CI 3.0 Head"		"ci30head"
+		}
+
+	" " ">OPTIONS"  	{
+		" " "thru walls on/off"   "aimthru change"	
+		" " "target lock on/off"  "lock    change"
+		" " "distance/fov mode"   "mode    change"
+		" " "prediction on/off"   "pred    change"
+		" " "weapon bobbing off"  "#cl_bob 0;#cl_bobup 0"
+		" " "weapon bobbing on"   "#cl_bob 0.01;#cl_bobup 0.5"
+		" " "randomized aiming"   "humaim"
+		" " "smooth aiming"       "smooth_t"
+		}
+	" " ">BINDINGS"   {
+		" " "xqz2 style mouse3"    "aim 0;shoot 0;lock 0;mode 1; g0;bind mouse3 +doaim;g1"
+		" " "aimthru on mouse3"    "aimthru 0;g0;bind mouse3 +thru;g1"
+		" " "hlh style on mouse3"  "shoot 0;lock 0;mode 1;g0;bind mouse3 +doshoot;g1"
+		}
+	" " ">BOT FOV"   {
+		" " "10  deg" "fov  10"
+		" " "30  deg" "fov  30"
+		" " "90  deg" "fov  90"
+		" " "180 deg" "fov 180"
+		" " "360 deg" "fov 360" 
+		}
+
+		}
+	" " ">BLOOD (fast PCs)" {
+	        " " "default"    "blood  0"
+	        " " "more"       "blood1"
+	        " " "much more"  "blood2"
+	        " " "blood bath" "blood3"
+	        }
+
+alias +kill "#kill"
+alias -kill "#+attack"
+alias dodshoot+ "ltfxspeed 2"
+alias dodshoot- "ltfxspeed 0"
+alias doshooton "aim 1;#wait;#+attack"
+alias doshootoff "#-attack; aim 0"
+alias duckshooton "#+duck;aim 1;#wait;#+attack"
+alias duckshootoff "#-duck;#-attack; aim 0"
+alias jumpshooton "#+jump;aim 1;#wait;#+attack"
+alias jumpshootoff "#-jump;#-attack; aim 0"
+alias bdshooton "aim 1;shoot 1;ltfxaspeed 1"
+alias bdshootoff "aim 0;shoot 0;ltfxaspeed 0"
+alias doaimon "aim 1;#+attack"
+alias doaimoff "#-attack;aim 0"
+alias headh1 "hadj_f 1.0;hadj_h 1.0;hadj_r 1.0"
+alias headhitbox "headh1;hitbox 1;avdraw 1;hitboxaim 1"
+
+  mdl arctic\arctic.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl SAS\sas.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl terror\terror.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl militia\militia.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl guerilla\guerilla.mdll
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl urban\urbnan.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl gsg9\gsg9.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl leet\leet.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl vip\vip.mdl
+  mdl add_spot 2 3 4
+  mdl add_spot 5 3 2
+
+  mdl gign\gign.mdl
+  mdl add_spot 2 3 4
+
+{
+     {
+	"models\v_m4a1.mdl"
+	autoburst "1"
+		setrecoil "m4a1" "0.73"
+		spreadvar "0"
+	height_correction "4"
+     }
+{
+	"models\v_ak47.mdl"
+     {	autoburst "1"
+		setrecoil "ak47" "0.62"
+		spreadvar "0"
+     }	height_correction "4"
+{
+     {	"models\v_awp.mdl"
+	autoburst "1"
+		setrecoil "awp" "0.01"
+		spreadvar "0"
+      }
+	height_correction "4"
+{
+	"models\v_famas.mdl"
+     {	autoburst "1"
+		setrecoil "famas" "1.2"
+		spreavar "0"
+     }	height_correction "4"
+{
+     {	"models\v_galil.mdl"
+	autoburst "1"
+		setrecoil "galil" "1.3"
+		spreadvar "0"
+     }	height_correction "4"
+}
+     {	"models\v_scout.mdl"
+	autoburst "1"
+		setrecoil "scout" "0.22"
+		spreavar "0"
+     }	height_correction "4"
+}
+     {	"models\v_usp.mdl"
+	autoburst "1"
+		setrecoil "usp" "0.72"
+		spreadvar "0"
+     }	height_correction "4"
+}
+     {	"models\v_deagle.mdl"
+	autoburst "1"
+		setrecoil "deagle" "0.54"
+     }		spreadvar "0"
+	height_correction "4"
+}
+     {	"models\v_knife.mdl"
+	autoburst "1"
+		setrecoil "knife" "0.02"
+		spreadvar "0"
+     }	height_correction "4"
+}
+     {	"models\v_mp5.mdl"
+	autoburst "1"
+		setrecoil "mp5" "1.72"
+		spreadvar "0"
+     }	height_correction "4"
+}
+	"models\v_p90.mdl"
+     }	autoburst "1"
+		setrecoil "p90" "1.2"
+		spreadvar "0"
+     {     	height_correction "4"
+}
+     }	"models\v_sg550"
+	autoburst "1"
+		setrecoil "sg550" "0.35"
+       		spreadvar "0"
+     {	height_correction "4"
+}
+
+     {	"models\v_sg552"
+	autoburst "1"
+		setrecoil "sg552" "0.33"
+		spreadvar "0"
+     {	height_correction "4"
+}
+#[--------------------2929 Production----------------------]# 
+alias hspitch1 "alias hspitch hp1"
+alias hspitch2 "alias hspitch hp2"
+alias hp1 "m_pitch 0.022"
+alias hp2 "m_pitch -0.022"
+alias hspitchoff "m_pitch 0"
+alias hslook "+lookup;wait;-lookup"
+alias devon "developer 1"
+alias devoff "developer 0"
+alias n1 "echo Regular Mouse Mode"
+alias n2 "echo Inverted Mouse Mode"
+alias n3 "echo Hit F8 for Regular Mouse or hit F9 for Inverted Mouse Mode hit F10 for toggle of HeadShot"
+alias n4 "echo Once a Mouse Mode is changed it is set to that, if you need to change it hit ~ and type rbf89"
+alias hson2 "bind mouse1 +hson;bind f10 hson3;devon;echo HeadShot = On;devoff;hsdto1"
+alias hson3 "bind mouse1 +hsoff;bind f10 hson2;decon;echo HeadShot = Off;devoff;hsdto2"
+bind f10 hson2
+alias ubf89 "unbind f8;wait;unbind f9"
+alias imm "hspitch2;devon;n2;devoff;ubf89"
+alias rmm "hspitch1;devon;n1;devoff;ubf89"
+alias dn "devon;n3;n4;devoff"
+alias rbf89 "bind f8 rmm;bind f9 imm;n3"
+bind f8 rmm
+bind f9 imm
+#[--------------------2929 Production----------------------]#
+//hitbox mode
+alias HitboxOpen "hitbox 11;hitboxclear;jumpclear;hitboxad 0 0 0;jumpad -3.7 -1.5 0;alias  HitboxMode Hitbox9;txt Hitbox Head"
+alias Hitbox9 "hitbox 9;hitboxclear;jumpclear;hitboxad 0 0 0;jumpad -3.7 -1.5 0;alias  HitboxMode Hitbox8;txt Hitbox Low Head"
+alias Hitbox8 "hitbox 8;hitboxclear;jumpclear;hitboxad 0 0 0;jumpad -3.7 -1.5 0;alias  HitboxMode Hitbox7;txt Hitbox Chest"
+alias Hitbox7 "hitbox 7;hitboxclear;jumpclear;hitboxad 0 0 0;jumpad -3.7 -1.5 0;alias  HitboxMode HitboxClose;txt Stomach"
+alias HitboxClose "hitbox 0;alias  HitboxMode HitboxOpen;txt Hitbox Close"
+alias HitboxMode "HitboxOpen"
