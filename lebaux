@@ -1,0 +1,229 @@
+//////////////////////////////////////////////////
+//                                              //
+//  	  Nick:     Bauer <LeBaux>              //
+//  	  Clan:     Gamester #AVONET            //
+//  	  Web:      www.gamester.cz             //
+//  	  Email:    lebaux@gmail.com            //
+//  	  Version:  20171125160903CET			//
+//  	  Updated:  complete rewrite            //
+//                                              //
+//////////////////////////////////////////////////
+//                                              //
+// 	  STEAM LAUNCH OPTIONS:						//
+// 	  +exec lebaux.cfg							//
+//                                              //
+//                                              //
+//////////////////////////////////////////////////
+unbindall
+
+
+
+//Mouse Sensitivity///////////////////////////////
+sensitivity					"2.275"		
+zoom_sensitivity_ratio		"1.405"
+m_rawimput					"0"			// Most pros play on 1, highly recommended to use 1
+m_filter					"0"
+
+
+
+//Controls////////////////////////////////////////
+bind	"MOUSE1"			"+attack"
+bind 	"MOUSE2"			"+attack2"
+bind	"w"					"+forward"
+bind	"s"					"+back"
+bind	"a"					"+moveleft"
+bind	"d"					"+moveright"
+bind	"r"					"+reload"
+bind	"e"					"+use"
+bind	"g"					"drop"
+bind	"f"					"lastinv"		// Last used weapon, commonly on Q, but I preffer F
+bind	"SPACE"				"+jump"
+bind	"CTRL"				"+duck"
+bind	"SHIFT"				"+speed"
+bind	"ALT"				"+voicerecord"
+bind	"q"					"impulse 100"	// flashlight
+bind	"t"					"impulse 201"	// Spray logo
+bind	"m"					"chooseteam"
+bind	"n"					"nightvision"
+bind	"y"					"messagemode"
+bind	"u"					"messagemode2"
+bind	"h"					"+commandmenu"
+bind	"MWHEELUP"			"+jump"
+bind	"MWHEELDOWN"		"+duck"
+bind	"ESCAPE"			"cancelselect"
+bind	"~"					"toggleconsole"
+bind	"`"					"toggleconsole"
+bind	"1"					"slot1"
+bind	"2"					"slot2"
+bind	"3"					"slot3"
+bind	"4"					"slot4"
+bind	"5"					"slot5"
+bind	"6"					"slot6"
+bind	"7"					"slot7"
+bind	"8"					"slot8"
+bind	"9"					"slot9"
+bind	"0"					"slot10"
+bind	"KP_END"			"radio1"
+bind	"KP_DOWNARROW"		"radio2"
+bind	"KP_PGDN"			"radio3"
+
+
+
+//Name////////////////////////////////////////////
+name						"lebaux_______________________1g"
+alias	"name1"				"lbx___(je_rozdil_mezi_l_a_I)"
+alias	"name2"				"name Gamester%|%LeBaux%#AVONET"
+alias	"name3"				"name Gamester%|%Bauer%<LeBaux>%"
+alias	"name4"				"name -=GaMeSTeR|Bauer=-"
+alias	"name5"				"name Bauer%<LeBaux>"
+
+
+
+//Team says///////////////////////////////////////
+bind 	"UPARROW"			"say_team /\/\/\/\/\ STREDOM /\/\/\/\/\"
+bind	"LEFTARROW"			"say_team <<<<<<<<<< VLAVO <<<<<<<<<<"
+bind	"RIGHTARROW"		"say_team >>>>>>>>>> VPRAVO >>>>>>>>>>"
+bind	"DOWNARROW"			"say_team VVVVVVVVVV DOZADU VVVVVVVVVV"
+bind	"PGUP"				"say_team [B]"
+bind	"PGDN"				"say_team [A]"
+
+
+
+//Buys////////////////////////////////////////////
+bind	"b"                    "buy"
+bind	"n"					   "buyequip"
+
+bind	"F1"                   "buy"
+bind	"F2"                   "defuser"
+bind	"F3"                   "vest"
+bind	"F4"                   "vest; vesthelm"
+
+bind	"F5"                   "deagle;								buyammo2; buyammo2; buyammo2"
+bind	"F6"                   "buyammo1"
+bind	"F7"                   "buyammo2"
+bind	"F8"                   "mp5;								buyammo1; buyammo1; buyammo1"
+
+bind	"F9"                   "m4a1;  ak47;						buyammo1; buyammo1; buyammo1"
+bind	"F10"                  "famas; galil;						buyammo1; buyammo1; buyammo1"
+bind	"F11"                  "flash; flash; hegren; sgren"
+bind	"F12"                  "awp;	      						buyammo1"
+
+bind	"["                    "vesthelm; flash; flash; hegren; sgren; m4a1; ak47;	buyammo1; buyammo1; buyammo1; deagle; buyammo2; buyammo2; buyammo2; defuser"
+bind	"]"                    "vesthelm; flash; flash; hegren; sgren; awp;			buyammo1; buyammo1; buyammo1; deagle; buyammo2; buyammo2; buyammo2; defuser"
+
+bind	"MOUSE3"               "sgren;  use weapon_fsgren; stopsound; room_type 0"
+bind	"MOUSE4"               "flash;  use weapon_flashbang"
+bind	"MOUSE5"               "hegren; use weapon_hegrenade"
+
+
+//Enhanced Scoreboard/////////////////////////////
+alias 	+statusrpt 		"+showscores; cl_showfps 1; net_graph 1; timeleft"
+alias 	-statusrpt 		"-showscores; cl_showfps 0; net_graph 0"
+net_graphwidth			"666"
+bind					"TAB" "+statusrpt"
+
+
+//Hide corpses////////////////////////////////////	
+alias corpse			"corpseon"
+alias corpseon 			"cl_corpsestay   1; say_team corpseoff; alias corpse corpseoff"
+alias corpseoff 		"cl_corpsestay 600; say_team corpseon;  alias corpse corpseon"
+bind	"c"				"corpse"
+
+
+//Solid radar toggle//////////////////////////////	
+alias solidradar		"solidradaron"
+alias solidradaron 		"cl_radartype 0; alias solidradar solidradaroff"
+alias solidradaroff 	"cl_radartype 1; alias solidradar solidradaron"
+bind	"o"				"solidradar"
+
+
+//Hide weapon model///////////////////////////////
+alias hidemodel			"hidemodelon"
+alias hidemodelon 		"r_drawviewmodel 0; alias hidemodel hidemodeloff"
+alias hidemodeloff 		"r_drawviewmodel 1; alias hidemodel hidemodelon"
+bind	"v" 			"hidemodel"
+
+
+
+//Admin AMX binds/////////////////////////////////
+bind	"kp_pgup"		"amx_csay yellow pokladej/defusuj BOMBU"
+bind	"kp_uparrow"	"amx_csay Nekempite na starte, jinak SLAY/KICK/BAN"
+bind	"kp_home"		"amx_csay red Nepouzivejte mikrofon na nesmysly."
+bind	"kp_del"		"spec"
+bind	"kp_enter"		"amxmodmenu"
+bind	"kp_ins"		"amxmodmenu"
+
+
+
+//Cvars///////////////////////////////////////////
+_cl_autowepswitch			"0"		
+brightness					"2"
+gamma						"3"
+MP3Volume					"0"
+volume						"0.2"
+voice_enable				"0"
+hud_centerid				"1"
+hud_fastswitch				"1"
+fps_max						"101"
+ex_interp					"0.04"		//was 0.05
+rate						"100000"	//old max was 25000, 100000 was introduced with last update.
+cl_rate						"20000"
+cl_updaterate				"101"
+cl_cmdrate					"106"
+cl_logofile					"camp1"
+cl_logocolor				"#Valve_Green"
+cl_righthand				"1"
+cl_radartype				"1"
+cl_crosshair_translucent	"0"
+cl_download_ingame			"0"
+cl_dynamiccrosshair			"0"
+cl_nosmooth					"1"
+cl_smoothtime				"0.1"
+cl_weather					"0"
+cl_crosshair_size			"large"
+cl_crosshair_color			"50 250 50"
+con_color					"50 250 50"
+gl_vsync 					"0"		//You don't have to manually turn off vsync on your GPU driver for cs, works only on STEAM, last CS update.
+
+
+
+//Unmodified cvars////////////////////////////////Potentially useful stuff, values you see are default ones. I would say cl_corpsestay is potentially useful, so you can hide dead bodies. Other than that, setting violence_hblood to 0 will render blood yellow instead of red, so it is better for visibility.
+//cl_chasedist			"112"		//It modifies how far the camera is zoomed out whilst your dead.
+//cl_cmdbackup 			"2"			//In addition, with each command packets(cl_cmdrate), we re-send the last few previous movement commands ( in case there is packet loss ) so that we can keep moving smoothly in the face of minor network problems. The default number of "backup" commands that we send is 2, but you can change this number by setting cl_cmdbackup to another number. You can send more than 8 backup commands and you should note that sending backup commands will increase your outgoing bandwidth usage.
+//cl_corpsestay			"600"		//Time in seconds before dead bodies dissapears from the ground.
+//cl_dlmax				"515"		//Cl_dlmax determines the fragment size for chunks of player decals, etc. that are downloaded while playing the game. Clamped to 16 to 1024 bytes. Useful to try and limit decals from taking up a lot of bandwidth  this made a lot more sense back when everyone was on 14.4 kbps modems.
+//cl_download_ingame	"1"			//Enables the download of players custom sprays while playing.
+//cl_nosmooth			"0"			//It defines if the prediction errors will be smoothly corrected over the cl_smoothtime time. If set to 1, the prediction error smoothing is disabled (same with cl_smoothime 0).
+//cl_timeout			"60"		//When you are inactive, it's after how many seconds the server disconnect you. This is also controled by sv_timeout (server side)
+//cl_waterdist			"4"			//It compensates the view along the surface of water.
+//fastsprites			"0"			//Defines quality of smokepuffs, 0 being the worst and 2 being the best. Set to lower quality to improve performance.
+//gl_affinemodels		"0"			//Applies opengl perspective correction hints: e.g.: glHint (GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
+//gl_alphamin			"0.25		//This controls how filtering of alpha-masked textures (gratings, fences, screen-door stuff) affects the appearance of edges. Higher values makes these items (i.e. the gratings,fences,etc.) look "skinnier", 1 makes them absolutely disappear.
+//gl_overbright			"0"			//Saturated lighting. Makes lighting more natural and realistic.
+//gl_picmip				"0"			//Sets the rendering quality - * higher the number is faster but lower qualityDon't set it over 3 or cs will crash.
+//gl_spriteblend		"1"			//It enabled alpha-blending on sprites. It's like the rendering quality to the sprites (gl_spriteblend 0 = bad quality), blood n stuffs.(0=more blood)
+//hisound				"1"			//Toggles high quality sound.
+//hud_deathnotice_time	"6"			//Sets the amount of seconds death notices are shown.
+//loadas8bit			"0"			//Toggles the use of 8 bit sound, which is lowest quality. On = 8 Bit. Off = 16 Bit.
+//max_shells			"120"		//Maximum number of shells which can go out of all other player's weapon's at one time.
+//max_smokepuffs		"120"		//Maximum number of smoke puffs that go out the smoke grenades and your bullets (on the wall) at one time.
+//mp_decals				"300"		//It sets the maximum decals (Spray logo, bullet holes, grenade scorch, blood on ground) VISIBLE on the screen. It has to be set before connection to server. It's not the same as r_decals.
+//net_showdrop			"0"			//Shows a message in console when a packet is dropped. This is for both client and server.
+//net_showpackets		"0"			//Shows incoming/outgoing packets. This is for both client and server.
+//nosound				"0"			//Should disable all sound, except for certain sounds like the footstep sound when a bullet ricochets.
+//r_decals				"300"		//It sets the decals (Spray logo, bullet holes, grenade scorch, blood on ground) limit. If higher than mp_decals, it will be set to mp_decals value (It's reset to mp_decals value when connecting to server). It's not the same as mp_decals.
+//r_detailtextures		"0"			//Turn on/off Detailed Textures. In cs 1.6 by default there are detailed textures only for Cobble.
+//r_drawviewmodel		"1"			//Toggle the view of the weapon model.
+//violence_ablood		"1"			//Toggles alien's blood.
+//violence_agibs		"1"			//Toggles alien's gibs.
+//violence_hblood		"1"			//Toggles human's blood.
+//violence_hgibs		"1"			//Toggles human's gibs.
+//voice_loopback		"0"			//When enables it and talk on your microphone, this loops back your own voice so you can hear yourself talk.
+//voice_scale			"1"			//This set how loud are the voices of the others players when they talk (also your voice if you use voice_loopback).
+//waterroom_type		"14"		//Sets the room_type under water, for type descriptions, see room_type. Set to 0 for clean sound under water.
+
+
+
+echo	"///////////////////////////////////"
+echo	"Config executed... (version 2017.11)"
+echo	"///////////////////////////////////"
