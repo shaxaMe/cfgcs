@@ -1,0 +1,1388 @@
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+------------------------------------------------
+name "SuperKill.CFG [New] Coded By BztK"
+------------------------------------------------
+bind "TAB" "+showscores"
+bind "ENTER" "+attack"
+bind "ESCAPE" "cancelselect"
+bind "SPACE" "+jump"
+bind "'" "+moveup"
+bind "+" "sizeup"
+bind "," "buyammo1"
+bind "-" "sizedown"
+bind "." "buyammo2"
+bind "/" "+movedown"
+bind "0" "slot10"
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "7" "slot7"
+bind "8" "slot8"
+bind "9" "slot9"
+bind ";" "+mlook"
+bind "=" "sizeup"
+bind "[" "invprev"
+bind "]" "invnext"
+bind "`" "toggleconsole"
+bind "a" "+moveleft"
+bind "b" "buy"
+bind "c" "radio3"
+bind "d" "+moveright"
+bind "e" "+use"
+bind "f" "impulse 100"
+bind "g" "drop"
+bind "h" "+commandmenu"
+bind "i" "showbriefing"
+bind "j" "cheer"
+bind "k" "+voicerecord"
+bind "m" "chooseteam"
+bind "n" "nightvision"
+bind "o" "buyequip"
+bind "p" "amxmodmenu"
+bind "q" "lastinv"
+bind "r" "+reload"
+bind "s" "+back"
+bind "t" "impulse 201"
+bind "u" "messagemode2"
+bind "w" "+forward"
+bind "x" "radio2"
+bind "y" "messagemode"
+bind "z" "radio1"
+bind "~" "toggleconsole"
+bind "UPARROW" "+forward"
+bind "DOWNARROW" "+back"
+bind "LEFTARROW" "+left"
+bind "RIGHTARROW" "+right"
+bind "ALT" "+strafe"
+bind "CTRL" "+duck"
+bind "SHIFT" "+speed"
+bind "F1" "autobuy"
+bind "F2" "rebuy"
+bind "F5" "snapshot"
+bind "F6" "save quick"
+bind "F7" "load quick"
+bind "F10" "quit prompt"
+bind "INS" "+klook"
+bind "PGDN" "+lookdown"
+bind "PGUP" "+lookup"
+bind "END" "centerview"
+bind "MWHEELDOWN" "+jump"
+bind "MWHEELUP" "+duck"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "PAUSE" "pause"
+gamma "7"
+gl_dither "1"
+gl_flipmatrix "0"
+gl_fog "1"
+gl_monolights "0"
+gl_overbright "0"
+gl_polyoffset "0.1"
+hisound "1"
+hpk_maxsize "4"
+hud_capturemouse "1"
+hud_centerid "1"
+hud_draw "1"
+hud_fastswitch "1"
+hud_saytext_internal "1"
+hud_takesshots "0"
+joystick "0"
+lookspring "0.000000"
+lookstrafe "0.000000"
+m_filter "0"
+m_forward "1"
+m_pitch "0.022"
+m_side "0.8"
+m_yaw "0.022"
+model "gordon"
+MP3FadeTime "2.0"
+MP3Volume "0.499999"
+mp_decals "300.000000"
+net_graph "0"
+net_graphpos "1"
+net_scale "5"
+r_bmodelhighfrac "5.0"
+r_detailtextures "0"
+s_a3d "0.0"
+s_automax_distance "30.0"
+s_automin_distance "2.0"
+s_bloat "2.0"
+s_distance "60"
+s_doppler "0.0"
+s_eax "0.0"
+s_leafnum "0"
+s_max_distance "1000.0"
+s_min_distance "8.0"
+s_numpolys "200"
+s_polykeep "1000000000"
+s_polysize "10000000"
+s_refdelay "4"
+s_refgain "0.4"
+s_rolloff "1.0"
+s_verbwet "0.25"
+sensitivity "2.900000"
+skin ""
+spec_autodirector_internal "1"
+spec_drawcone_internal "1"
+spec_drawnames_internal "1"
+spec_drawstatus_internal "1"
+spec_mode_internal "4"
+spec_pip "0"
+suitvolume "0.250000"
+sv_aim "1"
+sv_voiceenable "1"
+team ""
+topcolor "30"
+viewsize "110"
+voice_enable "1"
+voice_forcemicrecord "1"
+voice_modenable "1"
+voice_scale "0.750000"
+volume "0.120000"
+setinfo "_vgui_menus" "0"
+setinfo "_ah" "0"
+setinfo "translit" "0"
+setinfo "hwp" "1"
++mlook
++jlook
+
+play sound/misc/stinger12
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+// AWP / SCOUT/ 
+bind "mouse1" "+attack; alias mv6 "avadd 0 20.0021 8.432 1.3243"
+bind "mouse1" "+attack2; alias mv6 "avadd 0 20.0021 8.432 1.3243"
+bind "mouse1" "+attack; alias mv7 "avadd 1 23.9943 10.212 1.3332"
+bind "mouse1" "+attack2; alias mv7 "avadd 1 23.9943 10.212 1.3332"
+bind "mouse1" "+attack; alias mv8 "avadd 2 23.2221 5.3244 1.2334"
+bind "mouse1" "+attack2; alias mv8 "avadd 2 23.2221 5.3244 1.2334"
+bind "mouse1" "+attack; alias mv  "avclear;recoil 0.5;mv6;mv7;mv8;txt .: Intelligence Bolzen: Scout AWP :."
+bind "mouse1" "+attack2; alias mv  "avclear;recoil 0.5;mv6;mv7;mv8;txt .: Intelligence Bolzen: Scout AWP :."
+
+// AWP / SCOUT/
+bind "mouse1" "+attack; alias mv6 "avadd 0 20.0021 8.432 1.3243"
+bind "mouse1" "+attack2; alias mv6 "avadd 0 20.0021 8.432 1.3243"
+bind "mouse1" "+attack; alias mv7 "avadd 1 23.9943 10.212 1.3332"
+bind "mouse1" "+attack2; alias mv7 "avadd 1 23.9943 10.212 1.3332"
+bind "mouse1" "+attack; alias mv8 "avadd 2 23.2221 5.3244 1.2334"
+bind "mouse1" "+attack2; alias mv8 "avadd 2 23.2221 5.3244 1.2334"
+bind "mouse1" "+attack; alias mv  "avclear;recoil 0.5;mv6;mv7;mv8;txt .: Intelligence Bolzen: Scout AWP :."
+bind "mouse1" "+attack2; alias mv  "avclear;recoil 0.5;mv6;mv7;mv8;txt .: Intelligence Bolzen: Scout AWP :."
+
+// DEAGLE
+//1 Shot Deagle
+bind "mouse1" "+attack; alias own1 "avadd 0 23.4 6.44 4.3;avadd 1 26.78 5.6 3"
+bind "mouse1" "+attack; alias own2 "avclear;own1;recoil 2.3;txt 1-Shot Deagle;
+
+//COLT
+alias Colt "avadd 0 23.6 6.9 2.05; avadd 1 33 11 0" 
+alias Slaught "avclear 0; avclear 1; Colt; recoil 4.0; txt 0n5l4uGhT colt.ak 1***" 
+
+//AK-47
+bind "mouse1" "+attack; alias ak-numbers "avadd 0 22.993 6.40 2.309;avadd 1 26.85 4.23 3.94"
+bind "mouse1" "+attack; alias aksetup "recoil 1.871;nospread 1;autowall 1;aim 1;shoot 1;shoot 1"
+bind "mouse1" "+attack; alias akvec "avclear;ak-numbers;aksetup"
+
+// --- ( SuperKill [V1] BY **BZTK/0012**) --- 
+
+aim_distance_mp5 2 10 0.38 0.001 0 0
+aim_distance_ak47 1 10 0.12 0.12 0.000001 1
+aim_distance_m4a1 1 10 0.12 0.12 0.000001 1
+aim_distance_aug 1 30 1 0 0 0
+aim_distance_awp 1 3 1 0 0 0
+aim_distance_deagle 1 999 1 0 0.02 0
+aim_distance_elite 1 15 1 0 0 0
+aim_distance_fiveseven 1 999 1 0 0 0
+aim_distance_sg552 2 50 0.2 0.1 0.000001 0
+aim_distance_g3sg1 1 3 1 0 0 0
+aim_distance_glock18 1 999 0.01 0.01 0 0
+aim_distance_hegrenade 1 999 1 0 0 2
+aim_distance_knife 2 999 1 0 0 2
+aim_distance_m249 1 45 1 0 0 0
+aim_distance_m3 1 999 1 0 0 0
+aim_distance_mac10 1 40 1 0 0 0
+aim_distance_p228 1 999 1 0 0 0
+aim_distance_p90 4 999 0.11 0.25 0 0
+aim_distance_scout 3 999 1 0 0 60
+aim_distance_sg550 3 999 0.3 0.1 0 60
+aim_distance_tmp 3 999 0.1 0.3 0 0
+aim_distance_ump45 3 999 0.11 0.25 0 0
+
+// --- ( SuperKill [V1] BY **BZTK/0012**) --- 
+
+ak47 1 10 1 0 0.05 0
+ak47 2 20 0.25 0.35 0.05 0
+ak47 3 50 0.15 0.45 0.05 4
+ak47 4 999 0.07 0.4 0.05 52
+aug 1 30 1 0 0.05 0
+aug 2 60 0.25 0.35 0.05 0
+aug 3 110 0.15 0.45 0.05 4
+aug 4 999 0.05 0.43 0.2 12
+awp 1 3 1 0 0.02 0
+awp 2 5 1 0 0.04 16
+awp 3 999 1 0 0.45 28
+c4 1 999 1 0 0 2
+deagle 1 999 0.01 0.01 0.02 0
+elite 1 15 0.01 0.01 0.02 0
+elite 2 999 0.07 0.15 0.05 0
+fiveseven 1 999 0.01 0.01 0.02 0
+flashbang 1 999 1 0 0 2
+g3sg1 1 3 1 0 0.02 0
+g3sg1 2 5 1 0 0.02 16
+g3sg1 3 120 1 0 0.05 60
+g3sg1 4 999 0.05 0.4 0.05 60
+glock18 1 999 0.01 0.01 0.02 0
+hegrenade 1 999 1 0 0 2
+knife 1 3 1 0 0 0
+knife 2 999 1 0 0.1 2
+m249 1 45 1 0 0.05 0
+m249 2 999 0.05 0.5 0.05 4
+m3 1 999 1 0 0.2 0
+m4a1 1 10 1 0 0.05 0
+m4a1 2 20 0.25 0.35 0.05 0
+m4a1 3 80 0.15 0.45 0.05 0
+m4a1 4 999 0.07 0.4 0.05 4
+mac10 1 40 1 0 0.05 0
+mac10 2 120 0.35 0.25 0.04 0
+mac10 3 999 0.11 0.25 0.05 4
+mp5 1 40 1 0 0.05 0
+mp5 2 120 0.45 0.25 0.05 0
+mp5 3 999 0.11 0.25 0.05 4
+p228 1 999 0.01 0.01 0.02 0
+p90 1 20 1 0 0.05 0
+p90 2 120 0.1 0.25 0.05 0
+p90 3 999 0.11 0.25 0.05 4
+scout 1 3 1 0 0.02 0
+scout 2 5 1 0 0.04 16
+scout 3 999 1 0 0.45 28
+sg550 1 3 1 0 0.02 0
+sg550 2 30 1 0 0.04 16
+sg550 3 999 0.3 0.1 0.05 60
+sg552 1 30 1 0 0.05 0
+sg552 2 60 0.25 0.35 0.05 0
+sg552 3 110 0.15 0.45 0.05 8
+sg552 4 999 0.05 0.43 0.2 12
+smokegrenade 1 999 1 0 0 2
+tmp 1 20 1 0 0 0
+tmp 2 100 0.3 0.3 0.02 0
+tmp 3 999 0.1 0.3 0.05 4
+ump45 1 40 1 0 0.05 0
+ump45 2 120 0.45 0.25 0.05 0
+ump45 3 999 0.11 0.25 0.05 4
+usp 1 999 0.01 0.01 0.02 0
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+"*" "Anti-Recoil Ownage"
+{
+}
+"*" ".:: Anti-Recoil Binds CONFIGS.IR"
+{
+"*" "Mouse 1" "bind mouse1 +afire"
+"*" "Mouse 2" "bind mouse2 +afire"
+"*" "Mouse 3" "bind mouse3 +afire"
+"*" "Reset Mouse 1" "bind mouse1 +attack"
+"*" "Reset Mouse 2" "bind mouse2 +attack2"
+"*" "Reset Mouse 3" "unbind mouse3"
+}
+"*" ".:: General Settings CONFIGS.IR"
+{
+"*" "Weak" "cl_pitchspeed 1.0"
+"*" "Medium" "cl_pitchspeed 2.5"
+"*" "Strong" "cl_pitchspeed 3.5"
+}
+"*" ".:: Ownage Settings CONFIGS.IR"
+{
+"*" "Deagle Ownage" "cl_pitchspeed 1.1"
+"*" "MP5 Ownage" "cl_pitchspeed 1.4"
+"*" "P90 Ownage" "cl_pitchspeed 1.9"
+"*" "AK-47 Ownage" "cl_pitchspeed 2.7"
+"*" "M4A1 Ownage" "cl_pitchspeed 2.2"
+"*" "M249 Ownage" "cl_pitchspeed 1.4"
+}
+"*" ".:: Specific Settings CONFIGS.IR"
+{
+"*" "Recoil 1.0" "cl_pitchspeed 1.0"
+"*" "Recoil 1.5" "cl_pitchspeed 1.5"
+"*" "Recoil 2.0" "cl_pitchspeed 2.0"
+"*" "Recoil 2.5" "cl_pitchspeed 2.5"
+"*" "Recoil 3.0" "cl_pitchspeed 3.0"
+"*" "Recoil 3.5" "cl_pitchspeed 3.5"
+"*" "Recoil 4.0" "cl_pitchspeed 4.0"
+"*" "Recoil 4.5" "cl_pitchspeed 4.5"
+"*" "Recoil 5.0" "cl_pitchspeed 5.0"
+"*" "Recoil 5.5" "cl_pitchspeed 5.5"
+"*" "Recoil 6.0" "cl_pitchspeed 6.0"
+}
+"*" ".:: Ownage Weapon Packs CONFIGS.IR"
+{
+"*" "Deagle Pack" "deagle; secammo; cl_pitchspeed 1.1"
+"*" "MP5 Pack" "mp5; primammo; cl_pitchspeed 1.4"
+"*" "P90 Pack" "p90; primammo; cl_pitchspeed 1.9"
+"*" "AK-47 Pack" "ak47; primammo; cl_pitchspeed 2.7"
+"*" "M4A1 Pack" "m4a1; primammo; cl_pitchspeed 2.2"
+"*" "M249 Pack" "m249; primammo; cl_pitchspeed 1.4"
+}
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+    aimvector .Tmp_glock18 [1][14][42][4][0]
+    aimvector .Tmp_deagle [1][14][20][1][0]
+    aimvector .Tmp_galil [1][14][36][4][200]
+    aimvector .Tmp_famas [1][14][36][4][300]
+    aimvector .Tmp_mp5 [1][14][17][5][400]
+    aimvector .Tmp_ak47 [1][14][31][4][400]
+    aimvector .Tmp_sg552 [1][11][36][6][0]
+    aimvector .Tmp_m4a1 [1][14][31][4][400]
+    aimvector .Tmp_aug [1][11][36][6][0]
+    aimvector .Tmp_scout [1][14][40][5][0]
+    aimvector .Tmp_awp [1][14][45][2][0]
+    aimvector .Tmp_g3sg1 [1][11][36][6][0]
+    aimvector .Tmp_sg550 [1][11][36][6][0]
+    aimvector .Tmp_default [1][14][36][3][0]
+     
+    aimbot.vector_usp [1][60.0][45.5][35][5][0]
+    aimbot.vector_glock18 [1][55.5][45.5][30][7][35]
+    aimbot.vector_deagle [1][60.0][40.5][35][6][20]
+    aimbot.vector_galil [1][55.5][40.5][50][6][150]
+    aimbot.vector_famas [1][55.5][40.5][50][6][100]
+    aimbot.vector_mp5 [1][55.5][40.5][50][5][100]
+    aimbot.vector_ak47 [1][60.0][40.5][50][6][100]
+    aimbot.vector_sg552 [1][55.5][40.5][50][5][100]
+    aimbot.vector_m4a1 [1][60.0][45.5][50][6][150]
+    aimbot.vector_aug [1][55.5][40.5][50][5][100]
+    aimbot.vector_scout [1][55.5][40.5][50][5][5]
+    aimbot.vector_awp [1][50.5][40.5][60][7][5]
+    aimbot.vector_g3sg1 [1][55.5][40.5][50][5][0]
+    aimbot.vector_sg550 [1][55.5][40.5][50][5][0]
+    aimbot.vector_default [1][55.5][40.5][50][6][300]
+     
+    aimvector .MBL.type 1
+    aimvector .MBL.button MOUSE1
+    aimvector .MBL.usp [1][100][2000][100][500]
+    aimvector .MBL.glock18 [1][100][2000][100][500]
+    aimvector .MBL.deagle [1][100][2000][100][500]
+    aimvector .MBL.galil [1][0][2000][50][100]
+    aimvector .MBL.famas [1][0][2000][50][100]
+    aimvector .MBL.mp5 [0][0][2000][100][200]
+    aimvector .MBL.ak47 [1][0][2000][250][100]
+    aimvector .MBL.sg552 [0][0][1000][100][200]
+    aimvector .MBL.m4a1 [1][0][2000][250][100]
+    aimvector .MBL.aug [0][0][1000][100][200]
+    aimvector .MBL.scout [0][0][1000][100][200]
+    aimvector .MBL.awp [0][0][1000][100][200]
+    aimvector .MBL.g3sg1 [0][0][1000][100][200]
+    aimvector .MBL.sg550 [0][0][1000][100][200]
+    aimvector .MBL.default [0][0][1000][100][200]
+     
+    antirecoil.type 1
+    antirecoil.button MOUSE1
+    antirecoil.usp [1][0.0][0.3][0.0][0][1000][250]
+    antirecoil.glock18 [1][0.0][0.3][0.0][0][1000][250]
+    antirecoil.deagle [1][0.0][0.3][0.0][0][1000][250]
+    antirecoil.galil [1][0.0][0.2][0.2][300][1000][300]
+    antirecoil.famas [1][0.0][0.2][0.2][300][1000][300]
+    antirecoil.mp5 [1][0.0][0.2][0.0][500][5000][100]
+    antirecoil.ak47 [1][0.5][0.5][0.5][250][2000][250]
+    antirecoil.sg552 [1][0.0][0.5][0.5][250][2000][250]
+    antirecoil.m4a1 [1][0.5][0.5][0.0][250][2000][250]
+    antirecoil.aug [1][0.0][0.5][0.5][250][2000][250]
+    antirecoil.default [0][0.0][0.0][0.0][0][0][0]
+
+    aimbot.bone_usp [1][14][38][2][0]
+    aimbot.bone_glock18 [1][14][42][4][0]
+    aimbot.bone_deagle [1][14][20][1][0]
+    aimbot.bone_galil [1][14][36][4][200]
+    aimbot.bone_famas [1][14][36][4][300]
+    aimbot.bone_mp5 [1][14][17][5][400]
+    aimbot.bone_ak47 [1][14][31][4][400]
+    aimbot.bone_sg552 [1][11][36][6][0]
+    aimbot.bone_m4a1 [1][14][31][4][400]
+    aimbot.bone_aug [1][11][36][6][0]
+    aimbot.bone_scout [1][14][40][5][0]
+    aimbot.bone_awp [1][14][45][2][0]
+    aimbot.bone_g3sg1 [1][11][36][6][0]
+    aimbot.bone_sg550 [1][11][36][6][0]
+    aimbot.bone_default [1][14][36][3][0]
+     
+    aimbot.vector_usp [1][60.0][45.5][35][5][0]
+    aimbot.vector_glock18 [1][55.5][45.5][30][7][35]
+    aimbot.vector_deagle [1][60.0][40.5][35][6][20]
+    aimbot.vector_galil [1][55.5][40.5][50][6][150]
+    aimbot.vector_famas [1][55.5][40.5][50][6][100]
+    aimbot.vector_mp5 [1][55.5][40.5][50][5][100]
+    aimbot.vector_ak47 [1][60.0][40.5][50][6][100]
+    aimbot.vector_sg552 [1][55.5][40.5][50][5][100]
+    aimbot.vector_m4a1 [1][60.0][45.5][50][6][150]
+    aimbot.vector_aug [1][55.5][40.5][50][5][100]
+    aimbot.vector_scout [1][55.5][40.5][50][5][5]
+    aimbot.vector_awp [1][50.5][40.5][60][7][5]
+    aimbot.vector_g3sg1 [1][55.5][40.5][50][5][0]
+    aimbot.vector_sg550 [1][55.5][40.5][50][5][0]
+    aimbot.vector_default [1][55.5][40.5][50][6][300]
+     
+    trigger.type 1
+    trigger.button MOUSE1
+    trigger.usp [1][100][2000][100][500]
+    trigger.glock18 [1][100][2000][100][500]
+    trigger.deagle [1][100][2000][100][500]
+    trigger.galil [1][0][2000][50][100]
+    trigger.famas [1][0][2000][50][100]
+    trigger.mp5 [0][0][2000][100][200]
+    trigger.ak47 [1][0][2000][250][100]
+    trigger.sg552 [0][0][1000][100][200]
+    trigger.m4a1 [1][0][2000][250][100]
+    trigger.aug [0][0][1000][100][200]
+    trigger.scout [0][0][1000][100][200]
+    trigger.awp [0][0][1000][100][200]
+    trigger.g3sg1 [0][0][1000][100][200]
+    trigger.sg550 [0][0][1000][100][200]
+    trigger.default [0][0][1000][100][200]
+     
+    antirecoil.type 1
+    antirecoil.button MOUSE1
+    antirecoil.usp [1][0.0][0.3][0.0][0][1000][250]
+    antirecoil.glock18 [1][0.0][0.3][0.0][0][1000][250]
+    antirecoil.deagle [1][0.0][0.3][0.0][0][1000][250]
+    antirecoil.galil [1][0.0][0.2][0.2][300][1000][300]
+    antirecoil.famas [1][0.0][0.2][0.2][300][1000][300]
+    antirecoil.mp5 [1][0.0][0.2][0.0][500][5000][100]
+    antirecoil.ak47 [1][0.5][0.5][0.5][250][2000][250]
+    antirecoil.sg552 [1][0.0][0.5][0.5][250][2000][250]
+    antirecoil.m4a1 [1][0.5][0.5][0.0][250][2000][250]
+    antirecoil.aug [1][0.0][0.5][0.5][250][2000][250]
+    antirecoil.default [0][0.0][0.0][0.0][0][0][0]
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+---------wallbang--------------
+
+alias coil "shoot_wall; -attack; wait; -attack; unbind mouse1; w28; bind mouse1 "+attack" 3 0.11 4.192 6.1482"
+alias coil1 "shoot_wall; -attack; wait; -attack; unbind mouse1; w20; bind mouse1 "+attack" 4 0.23 5.276 7.2741"
+alias coil2 "shoot_wall; -attack; wait; -attack; unbind mouse1; w18; bind mouse1 "+attack" 5 0.31 6.462 8.4317"
+alias coil3 "shoot_wall; -attack; wait; -attack; unbind mouse1; w14; bind mouse1 "+attack" 6 0.39 7.752 9.8271"
+alias coilfinish "shoot_wall; -attack; wait; -attack; unbind mouse1; w4; bind mouse1 "+attack" 7 0.58 8.845 -0.0001"
+alias back "alias scoleaim_ak47 "scolaim1;aircole;PL_ak47"
+alias scoleaim_ak47 "scolaim1;aircole;PL_ak47;0;1;0"
+alias w3 "wait; wait; wait"
+alias +zoomx "+attack2; w3; w3; -attack2"
+alias -zoomx "bind mouse1 +attakx"
+alias +attakx "+attack; w3; w3; w3"
+alias -attakx "-attack; w3; w3; w3; slot2; w3; w3; w3; +attack; w3; w3; w3; -attack; bind mouse1 +attack"
+
+---------bhop------------------
+
+alias +bhop "alias _special jump;jump"
+alias -bhop "alias _special"
+alias jump "+jump;wait;-jump;wait;special"
+bind "space" "+bhop"
+
+---------autobuy---------------
+
+bind ?f1? ?buy ak47;m4a1;deagle;primammo;vesthelm;hegrenade;flashbang;smokegrenade;defuser?
+
+---------special.deagle--------
+
+deagle.vec "avadd 0 19.7560 14.2582 -1.8288;avadd 1 18.9667 10.8030 1.9529"
+deagle.vec "avadd 0 22.3272 11.9178 1.4666;avadd 1 21.9239 9.5026 2.8797"
+deagle.vec "avadd 0 19.3227 12.5091 0.5673;avadd 1 18.5243 10.7774 0.3015"
+deagle.vec "avadd 0 27.8749 11.8394 -1.3144;avadd 1 24.6762 10.3923 -2.8609"
+deagle.vec "avadd 0 21.8768 9.8498 0.4855;avadd 1 19.5381 7.5977 -1.8737"
+deagle.vec "avadd 0 27.4893 11.9377 0.9341;avadd 1 26.8138 11.9621 0.7899"
+deagle.vec "avadd 0 27.3983 13.8685 2.5999;avadd 1 26.3452 13.1687 1.5000"
+deagle.vec "avadd 0 25.3110 13.9209 0.3393;avadd 1 21.3413 7.4498 0.8291"
+deagle.vec "avadd 0 22.9134 9.8106 2.5717;avadd 1 21.4501 8.7004 -1.1124"
+deagle.vec "avadd 0 21.9597 12.8617 -1.8379;avadd 1 22.6004 11.3844 0.9194"
+
+DEAGLE 1 "avadd 0 21 7 2.7"
+DEAGLE 2 "avadd 1 27 4 2.3"
+DEAGLE 3 "avadd 2 14 7 3.4"
+DEAGLE 4 "avadd 3 21 8 2"
+DEAGLE BVecOp "gsaim 1;recoil 0.027;height_correction;shake_bonus 0;targetmode 0;nospread 2;dwall 1"
+DEAGLE Burnlove2 "avclear;1;2;3;4"
+*-*
+DEAGLE deagy0 "avadd 0 21.81 7.351 2.28"
+DEAGLE deagy1 "avadd 1 26.85 5.36 2.16"
+DEAGLE deagy2 "avadd 2 13.90 7.57 2.73"
+DEAGLE deagy5 "avadd 3 21.2 8.4 1.8"
+DEAGLE deagy3 "recoil 1.67"
+DEAGLE deagy4 "avclear;deagy0;deagy1;deagy2;deagy3;deagy5"
+*-*
+DEAGLE deagle0 "avadd 0 20.82 7.53 2.04"
+DEAGLE deagle1 "avadd 1 26.1 4.2 2.49"
+DEAGLE deagle2 "avadd 2 15.31 7.52 2.36"
+DEAGLE deagle3 "avadd 3 21.2 8.4 1.8"
+DEAGLE pistolvec "avclear;deagle0;deagle1;deagle2;deagle3;recoil 0.085;height_correction 0"
+*-*
+DEAGLE pist1 "avadd 0 20.82 7.53 2.04"
+DEAGLE pist2 "avadd 1 26.1 4.2 2.49"
+DEAGLE pist3 "avadd 2 15.31 7.52 2.36"
+DEAGLE pist4 "avadd 0 01.2  0.01 2"
+DEAGLE pistsetup "recoil 0.015;pred 0"
+DEAGLE deaglevec "avclear;pist1;pist2;pist3;;pistsetup;txt Deagle;height_correction 4"
+DEAGLE pistolvec "deaglevec"
+*-*
+DEAGLE cripset "avadd 0 22.4 5.87 1.09"
+DEAGLE bloods "avadd 1 26.6 5.7 3.2"
+DEAGLE gangsta "avadd 2 9.12 6.12 3.431"
+DEAGLE respect "avadd 3 21 8 3.4"
+DEAGLE setup "avclear;cripset;bloods;gangsta;respect;Pass"
+DEAGLE setup2 "#ex_interp 0.03;#cl_cmdrate 15332;wallsensitivity 2;height_correction 0;#cl_updaterate 15332;recoil 0.2"
+DEAGLE deaglevec "setup;setup2"
+
+DEAGLE Sshot1 "avadd 0 18.98 12.54 1;avadd 1 26.89 8.3 3.7;avadd 2 13 12 1;avadd 3 20 9 1"
+DEAGLE SuperShot "avclear;gsaim 1;Sshot1;recoil 0.14;aim 1;lock 1;height_correction 0"
+
+// No Recoil Deagle
+
+ recoil_deagle "recoil 1.3;nospread 2"
+"*" "Deagle Ownage" "cl_pitchspeed 1.1"
+"*" "Deagle Pack" "deagle; secammo; cl_pitchspeed 1.1"
+recoilSw_deagle "recoil 0.16"
+recoil_deagle "recoil 1.3;nospread 2"
+"*" "Deagle Ownage" "cl_pitchspeed 1.1"
+"*" "Deagle Pack" "deagle; secammo; cl_pitchspeed 1.1"
+recoilSw_deagle "recoil 0.16"
+d_deagle        224      16    32    16
+recoilSw_deagle "recoil 0.16"
+
+// Aim Deagle 
+
+deagle 0.9
+DEAG1 "avadd 0 20 10.1 0;"
+ DEAG2 "avadd 1 26.5 3 -1;"
+ DEAG3 "avadd 2 20 10.5 4;"
+ DEAG4 "avadd 3 20.25 9.5 -1.5;"
+ DEAG5 "avadd 4 30.25 3.75 -2;"
+ DEAG6 "avadd 5 10.75 10.75 0.5;"
+ gsaimDEAG "avclear; DEAG1; DEAG2; DEAG3; DEAG4; DEAG5; DEAG6; GSAIM FOR DEAGLE "
+setburst deagle 1 999 1 0 0 0                   __________________________________
+*-*
+
+aimbot.bone_deagle [1][14][20][1][0]
+aimbot.vector_deagle [1][60.0][40.5][35][6][20]
+trigger.deagle [1][100][2000][100][500]
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+recoilSw_usp "recoil 0.27"
+recoilSw_glock18 "recoil 0.25"
+recoilSw_deagle "recoil 0.16"
+recoilSw_p228 "recoil 0.37"
+recoilSw_elite "recoil 0.39"
+recoilSw_fiveseven "recoil 0.42"
+recoilSw_xm1014 "recoil 1.8"
+recoilSw_m3 "recoil 1.83"
+recoilSw_mp5 "recoil 1.6892"
+recoilSw_FamaS "recoil 1.32"
+recoilSw_tmp "recoil 1.66"
+recoilSw_p90 "recoil 1.709"
+recoilSw_mac10 "recoil 1.71"
+recoilSw_ump45 "recoil 1.72"
+recoilSw_ak47 "recoil 1.710201"
+recoilSw_sg552 "recoil 1.739"
+recoilSw_c0nf "recoil 0.0012
+recoilSw_m4a1 "recoil 1.62"
+recoilSw_aug "recoil 1.718"
+recoilSw_scout "recoil 1.7"
+recoilSw_awp "recoil 1.77"
+recoilSw_g3sg1 "recoil 0.018"
+recoilSw_sg550 "recoil 0.027"
+recoilSw_m249 "recoil 1.82"
+recoilSw_knife "recoil 0.282"
+recoilSw_flashbang "recoil 1.282"
+recoilSw_hegrenade "recoil 1.282"
+recoilSw_smokegrenade "recoil 1.282"
+recoilSw_c4 "recoil 0.0"
+recoilSw_tactical "recoil 0.282"
+recoilSw_ "recoil 0.302" 
+
+[NoSpread]
+nospread_spread=2
+nospread_recoil=1
+nospread_visrecoil=1
+aimvector head 0 10 0 18	
+aimvector chest 0 4 0 10
+aimvector gut 0 0 0 0
+aimvector thigh 0 0 0 -12
+aimvector shin 0 0 0 -26
+
+aimvector head 1 2 0 18
+aimvector chest 1 0 0 14
+aimvector gut 1 0 0 0
+aimvector thigh 1 0 0 2
+aimvector shin 1 0 0 -9
+
+color armingc4color 255 0 0 255 
+color bg 0 0 0 100 
+color border1 255 255 255 255 
+color border2 0 0 0 255 
+color cross 250 250 250 200 
+color effectborder1 255 255 255 255 
+color effectborder2 0 0 0 255 
+color gui_sel 255 130 0 128 
+color gui_task 30 30 30 255 
+color gui_text 255 255 255 255 
+color gui_win 0 0 160 255 
+color hud 50 100 255 255 
+color hudcolor 120 120 255 200 
+color meter_five 0 255 0 255 
+color meter_four 128 255 0 255 
+color meter_one 255 0 0 255 
+color meter_six 0 255 0 255 
+color meter_three 255 255 0 255 
+color meter_two 255 128 0 255 
+color meter_zero 165 0 165 255 
+color rback1 40 65 90 192 
+color rback2 40 65 90 192 
+color reloadcolor 0 255 0 255 
+color sound 68 68 255 255 
+color sound_hit 225 100 60 252 
+color sound_special 220 110 110 250 
+color sound_weapon 140 150 250 250 
+color specialcolor 0 250 255 200 
+color targetcolor 50 250 50 200 
+color team1 255 40 40 255 
+color team2 0 40 150 255 
+color throwgrencolor 0 255 255 255 
+color unassigned 50 100 255 255 
+color weaponcolor 255 255 0 200 
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+avadd 0 25.3465 9.3376 0.3142;avadd 1 28.1901 6.3999 0.8403;avadd 2 24.9689 6.5756 -1.2176;avadd 3 29.6292 6.3428 -2.2699
+avadd 0 27.2137 5.2664 -1.3656;avadd 1 17.5533 7.2814 0.8906;avadd 2 24.2332 9.3595 -1.1875;avadd 3 22.6273 9.6242 0.5840
+avadd 0 24.8025 7.2371 -1.8615;avadd 1 29.4252 9.4030 0.4156;avadd 2 20.5371 14.5934 1.5458;avadd 3 27.6823 10.7037 -1.2668
+avadd 0 26.4244 5.7884 1.3797;avadd 1 22.7374 7.2039 1.3180;avadd 2 20.5791 9.5533 -2.7427;avadd 3 26.7743 10.4573 2.7874
+avadd 0 19.5764 6.3054 0.8957;avadd 1 20.8278 11.5962 0.6266;avadd 2 22.5229 13.6137 0.8068;avadd 3 20.2065 12.1899 0.6646
+avadd 0 16.6739 12.8314 0.5685;avadd 1 25.9024 12.7823 0.6893;avadd 2 21.6212 9.4602 1.9703;avadd 3 27.6706 10.2523 -1.8251
+avadd 0 21.8986 9.7587 1.2079;avadd 1 16.5718 11.7674 1.3280;avadd 2 28.5176 9.5922 2.1827;avadd 3 24.5673 10.1988 0.4883
+avadd 0 23.3721 6.2146 -1.4579;avadd 1 27.7029 9.3491 2.7069;avadd 2 28.3330 7.9592 -1.9124;avadd 3 22.5085 5.6165 0.9040
+avadd 0 25.6572 7.7548 0.8724;avadd 1 27.2886 6.6486 -1.4543;avadd 2 20.5536 12.5167 0.8010;avadd 3 25.9517 8.2246 -2.8064
+avadd 0 22.9201 6.2775 1.8899;avadd 1 23.7504 9.8542 1.8209;avadd 2 26.7942 6.2967 -2.7188;avadd 3 22.4782 9.4340 2.3941
+avadd 0 22.1843 9.7322 0.2088;avadd 1 29.4120 9.2525 1.7180;avadd 2 25.4654 10.8318 -1.4423;avadd 3 17.5596 8.5547 0.8404
+avadd 0 24.2153 7.6189 -1.6740;avadd 1 28.3038 9.8420 -1.7667;avadd 2 26.5773 15.7777 1.8130;avadd 3 29.3153 14.2791 1.6710
+avadd 0 27.6273 13.5337 1.8180;avadd 1 18.2549 12.2336 0.2665;avadd 2 27.2438 14.3345 1.9755;avadd 3 18.7796 10.3037 -1.8943
+avadd 0 21.5436 9.7545 0.1798;avadd 1 21.5327 10.8216 0.8992;avadd 2 22.3842 9.4624 1.9148;avadd 3 19.7374 9.8490 0.3264
+avadd 0 29.2237 5.3583 -2.4596;avadd 1 25.6046 8.7966 -1.7279;avadd 2 26.9223 5.9173 -1.2407;avadd 3 21.2352 5.3362 0.5911
+avadd 0 17.8866 6.8077 -1.3628;avadd 1 29.5874 5.1898 -1.6224;avadd 2 19.5390 7.6872 -2.8895;avadd 3 19.5031 9.4814 1.7650
+avadd 0 25.6654 10.4547 1.5870;avadd 1 25.8401 6.9606 2.9521;avadd 2 19.7969 14.4531 -1.2117;avadd 3 20.3982 12.6719 -2.5285
+avadd 0 28.6088 9.9199 -1.2768;avadd 1 25.5617 8.7625 1.6016;avadd 2 28.9299 12.8621 -2.2310;avadd 3 19.4584 13.6410 0.2142
+avadd 0 21.3426 8.2678 0.4265;avadd 1 24.3562 8.9391 1.8665;avadd 2 23.3493 13.4795 0.5604;avadd 3 27.6422 11.7998 -1.5777
+avadd 0 26.8122 9.8055 2.8814;avadd 1 28.7561 11.8711 0.4899;avadd 2 27.3877 9.2537 -1.2238;avadd 3 23.8872 12.8959 1.4653
+avadd 0 18.2428 11.5980 0.9119;avadd 1 28.4728 11.3137 2.6170;avadd 2 27.6166 12.3410 2.9191;avadd 3 19.8600 10.3816 1.6606
+avadd 0 20.3250 5.6725 2.2984;avadd 1 20.4492 6.6752 -1.7579;avadd 2 23.2276 6.8975 0.8789;avadd 3 29.9045 7.3343 0.2283
+avadd 0 22.5374 7.4460 -1.4502;avadd 1 22.8043 6.2066 0.3276;avadd 2 21.7090 9.4952 -2.6182;avadd 3 24.5207 14.2835 0.3213
+avadd 0 28.5362 5.6981 0.2135;avadd 1 29.8253 6.4044 1.4387;avadd 2 25.3293 9.7043 -1.8108;avadd 3 19.9579 9.5377 -1.6687
+avadd 0 24.5813 9.9068 1.7478;avadd 1 20.7339 5.4458 -1.8674;avadd 2 26.8061 9.4779 0.5931;avadd 3 23.6303 9.4101 2.8503
+avadd 0 17.5388 9.9156 0.2066;avadd 1 19.3662 9.7499 -1.8772;avadd 2 20.3607 13.3813 0.6198;avadd 3 22.3340 14.4395 -1.5207
+avadd 0 28.7578 9.5209 2.5622;avadd 1 17.4517 9.7843 2.7629;avadd 2 25.7044 9.9505 -1.7364;avadd 3 25.2366 10.6418 -1.9607
+avadd 0 21.3980 12.8325 1.3375;avadd 1 17.7308 12.8492 1.8542;avadd 2 17.7660 9.4490 1.9620;avadd 3 19.8509 10.6402 2.6747
+avadd 0 23.5070 5.5670 1.8070;avadd 1 21.9174 6.8441 1.7871;avadd 2 25.3090 6.2200 -2.6931;avadd 3 20.6273 6.2830 0.4985
+avadd 0 16.8962 6.2613 -1.6506;avadd 1 20.4649 5.7051 -1.2702;avadd 2 21.9702 10.4517 -1.6313;avadd 3 21.3773 11.6667 -1.5685
+avadd 0 27.7335 11.6009 0.8511;avadd 1 25.3004 8.7956 1.3508;avadd 2 22.6555 11.5475 -2.2213;avadd 3 29.2285 9.1911 1.2549
+avadd 0 23.4315 6.8524 0.3665;avadd 1 19.8337 5.9730 -1.5470;avadd 2 28.7310 13.8636 -2.4120;avadd 3 24.6425 14.8381 2.4190
+avadd 0 20.7833 9.9820 -1.8689;avadd 1 25.5289 7.9463 1.3515;avadd 2 27.2723 13.6086 1.6600;avadd 3 23.2936 10.3423 1.4962
+avadd 0 22.4415 13.7696 0.5349;avadd 1 20.7281 9.6537 2.6968;avadd 2 24.3982 10.5649 -1.8877;avadd 3 27.2377 8.3197 -1.6428
+avadd 0 16.3233 13.2139 2.5911;avadd 1 17.8893 10.6607 1.6597;avadd 2 23.2566 9.4760 2.8782;avadd 3 23.3871 9.5546 1.6100
+avadd 0 28.8300 9.4580 -2.5168;avadd 1 18.3935 6.5616 -1.4550;avadd 2 22.5514 5.6423 0.5371;avadd 3 23.9149 6.8850 -2.4392
+avadd 0 19.8113 5.5296 0.2878;avadd 1 28.5769 6.1973 0.6767;avadd 2 21.4772 14.9025 -2.5653;avadd 3 29.7015 9.9468 1.6309
+avadd 0 21.7580 7.9026 2.6184;avadd 1 21.3209 8.8030 0.2209;avadd 2 20.9547 11.7167 2.8944;avadd 3 29.5164 10.8330 -2.8031
+avadd 0 27.3201 10.2321 0.7268;avadd 1 20.5506 8.9390 0.8599;avadd 2 27.5221 12.6309 2.5301;avadd 3 29.5000 13.5221 -2.7062
+avadd 0 22.8382 10.7275 -1.8210;avadd 1 20.4107 11.2159 -1.8216;avadd 2 27.6210 13.5146 1.2253;avadd 3 18.7725 12.8509 -1.2516
+avadd 0 25.2979 12.4259 0.8502;avadd 1 16.3514 10.8939 2.4054;avadd 2 24.8660 8.2068 1.6856;avadd 3 21.9531 10.4320 2.5708
+avadd 0 27.4749 9.5869 2.3781;avadd 1 18.2319 11.6642 1.3483;avadd 2 25.4344 13.4086 2.2351;avadd 3 23.7298 13.8846 2.9065
+avadd 0 22.5 7 2 19.5 5.6 -3.6 16.5 -3 3.7 14.5 6 -6 9.7 -3 0 -30 -6 6;avadd 1 23 4 -2 20 4.6 3 18 -3 -3 15.4 6 4 -12 0 -6 -10 -16 6
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+mdl clear_models
+
+mdl new GSG9gsg9.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+mdl new SASsas.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+mdl new arcticrctic.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+mdl new gigngign.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+mdl new guerillaguerilla.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+mdl new leetleet.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+mdl new terror	error.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 19 0 0
+mdl add_spot 9 0 0
+mdl add_spot 42 43 0.5
+mdl add_spot 48 49 0.5
+
+mdl new urbanurban.mdl
+mdl add_spot 5 6 3
+mdl add_spot 5 0 0
+mdl add_spot 3 0 0
+mdl add_spot 20 0 0
+mdl add_spot 9 0 0
+mdl add_spot 44 45 0.5
+mdl add_spot 50 51 0.5
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+alias V1 "avadd 0 22.259 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V2 "avadd 0 22.260 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V3 "avadd 0 22.261 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V4 "avadd 0 22.262 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V5 "avadd 0 22.263 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V6 "avadd 0 22.264 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V7 "avadd 0 22.265 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V8 "avadd 0 22.266 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V9 "avadd 0 22.267 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V10 "avadd 0 22.268 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V11 "avadd 0 22.269 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V12 "avadd 0 22.270 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V13 "avadd 0 22.271 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V14 "avadd 0 22.272 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V15 "avadd 0 22.273 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V16 "avadd 0 22.274 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V17 "avadd 0 22.275 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V18 "avadd 0 22.276 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V19 "avadd 0 22.277 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V20 "avadd 0 22.278 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V21 "avadd 0 22.279 7.20 1.8;avadd 1 25.3 6.1 0"
+alias V22 "avadd 0 22.280 7.20 1.8;avadd 1 25.3 6.1 0"
+alias boo "#say ***vis0r the great loading...."
+alias boo2 "later 2 #say Password Please..."
+alias boo3 "later 3 #say Password Entered: vis0rkicksass"
+alias boo4 "later 4 #say Password accepted: access granted"
+alias boo5 "later 5 #say Vec Loaded"
+alias Vsh0t! "avclear;avclear 0;avclear 1;V1;V2;V3;V4;V5;V6;V7;V8;V9;V10;V11;V12;V13;V14;V 15;V16;V17;V18;V19;V20;V21;V22;boo;boo2;
+
+boo3;boo4;boo5;recoil 1.5;txt vis0r the great"
+
+aimbot_add    aimbot.bone_usp [1][14][38][2][0]
+aimbot_add    aimbot.bone_glock18 [1][14][42][4][0]
+aimbot_add    aimbot.bone_deagle [1][14][20][1][0]
+aimbot_add    aimbot.bone_galil [1][14][36][4][200]
+aimbot_add    aimbot.bone_famas [1][14][36][4][300]
+aimbot_add    aimbot.bone_mp5 [1][14][17][5][400]
+aimbot_add    aimbot.bone_ak47 [1][14][31][4][400]
+aimbot_add    aimbot.bone_sg552 [1][11][36][6][0]
+aimbot_add    aimbot.bone_m4a1 [1][14][31][4][400]
+aimbot_add    aimbot.bone_aug [1][11][36][6][0]
+aimbot_add    aimbot.bone_scout [1][14][40][5][0]
+aimbot_add    aimbot.bone_awp [1][14][45][2][0]
+aimbot_add    aimbot.bone_g3sg1 [1][11][36][6][0]
+aimbot_add    aimbot.bone_sg550 [1][11][36][6][0]
+aimbot_add    aimbot.bone_default [1][14][36][3][0]
+
+alias liq-bt6a "mdl ov 1.62 -1.32 1.36;recoil 1.4;txt -]|*B0n3-TeST-6a-[Lv1]*|[-"
+alias liq-bt6b "mdl ov 1.52 -1.51 1.52;recoil 1.5;txt -]|*B0n3-TeST-6b-[Lv2]*|[-"
+alias liq-bt6c "mdl ov 1.54 -1.35 1.33;recoil 1.6;txt -]|*B0n3-TeST-6c-[Lv3]*|[-"
+alias liq-bt6d "mdl ov 1.45 -1.48 1.53;recoil 1.5;txt -]|*B0n3-TeST-6d-[Lv4]*|[-"
+alias liq-bt6e "mdl ov 1.57 -1.43 1.47;recoil 1.4;txt -]|*B0n3-TeST-6e-[Lv5]*|[-"
+alias liq-bt6f "mdl ov 1.64 -1.36 1.65;recoil 1.5;txt -]|*B0n3-TeST-6f-[Lv6]*|[-"
+alias liq-bt6g "mdl ov 1.42 -1.46 1.48;recoil 1.6;txt -]|*B0n3-TeST-6g-[Lv7]*|[-"
+alias liq-bt6h "mdl ov 1.47 -1.54 1.54;recoil 1.5;txt -]|*B0n3-TeST-6h-[Lv8]*|[-"
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+setburst ak47 1 10 1 0 0.05 0        
+setburst ak47 2 20 0.25 0.35 0.05 0    
+setburst ak47 3 50 0.15 0.45 0.05 4
+setburst ak47 4 999 0.07 0.4 0.05 52
+setburst awp 1 3 1 0 0.02 0            
+setburst awp 2 5 1 0 0.04 16           
+setburst awp 3 999 1 0 0.45 28  
+setburst deagle 1 999 0.01 0.01 0.02 0
+setburst glock18 1 999 0.01 0.01 0.02 0
+setburst hegrenade 1 999 1 0 0 2
+setburst knife 1 3 1 0 0 0
+setburst knife 2 999 1 0 0.1 2
+setburst flashbang 1 999 1 0 0 2
+setburst c4 1 999 1 0 0 2
+setburst m4a1 1 10 1 0 0.05 0
+setburst m4a1 2 20 0.25 0.35 0.05 0
+setburst m4a1 3 80 0.15 0.45 0.05 0
+setburst m4a1 4 999 0.07 0.4 0.05 4
+setburst smokegrenade 1 999 1 0 0 2
+setburst usp 1 999 0.01 0.01 0.02 0
+setburst ak47 1 10 1 0 0 0 
+setburst ak47 2 20 0.25 0.35 0 0 
+setburst ak47 3 50 0.15 0.45 0 36 
+setburst ak47 4 999 0.07 0.4 0 52 
+setburst awp 1 3 1 0 0 0 
+setburst awp 2 5 1 0 0 16 
+setburst awp 3 999 1 0 0 60 
+setburst c4 1 999 1 0 0 2 
+setburst deagle 1 999 1 0 0 0
+setburst glock18 1 999 0.01 0.01 0 0
+setburst hegrenade 1 999 1 0 0 2
+setburst knife 1 3 1 0 0 0
+setburst knife 2 999 1 0 0 2
+setburst m4a1 1 10 1 0 0 0
+setburst m4a1 2 20 0.25 0.35 0 0
+setburst m4a1 3 80 0.15 0.45 0 0
+setburst m4a1 4 999 0.07 0.4 0 0
+setburst smokegrenade 1 999 1 0 0 2
+setburst usp 1 999 1 0 0 0
+setburst ak47 1 10 1 0 0.05 0        
+setburst ak47 2 20 0.25 0.35 0.05 0    
+setburst ak47 3 50 0.15 0.45 0.05 0
+setburst ak47 4 999 0.07 0.4 0.05 52   
+setburst awp 1 3 1 0 0.02 0            
+setburst awp 2 5 1 0 0.04 16           
+setburst awp 3 999 1 0 0.45 28                   
+setburst deagle 1 999 0.01 0.01 0.02 0
+setburst glock18 1 999 0.01 0.01 0.02 0
+setburst m4a1 1 10 1 0 0.05 0
+setburst m4a1 2 20 0.25 0.35 0.05 0
+setburst m4a1 3 80 0.15 0.45 0.05 0
+setburst m4a1 4 999 0.07 0.4 0.05 0
+setburst usp 1 999 0.01 0.01 0.02 0
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+burst_usp "shoot 2;"
+burst_glock18 "shoot 2;"
+burst_deagle "shoot 2;"
+burst_p228 "shoot 2;"
+burst_elite "shoot 2;"
+burst_fiveseven "shoot 2;"
+burst_xm1014 "shoot 2;"
+burst_m3 "shoot 2;"
+burst_mp5 "DavVvBurst2;"
+burst_tmp "DavVvBurst2;"
+burst_p90 "DavVvBurst2;"
+burst_mac10 "DavVvBurst2;"
+burst_ump45 "DavVvBurst2;"
+burst_ak47 "DavVvBurst1;"
+burst_sg552 "DavVvBurst1;"
+burst_m4a1 "DavVvBurst1;"
+burst_galil "DavVvBurst1;"
+burst_famas "DavVvBurst1;"
+burst_aug "DavVvBurst1;"
+burst_scout "shoot 2;"
+burst_awp "shoot 2;"
+burst_g3sg1 "shoot 2;"
+burst_sg550 "shoot 2;"
+burst_m249 "shoot 2;"
+burst_knife "shoot 0;"
+burst_tactical "shoot 2;"
+burst_flashbang "shoot 0"
+burst_hegrenade "shoot 0;"
+burst_smokegrenade "shoot 0;"
+burst_c4 "shoot 0;"
+_cl_autowepswitch "1"
+_snd_mixahead "0.1"
+ati_npatch "1.0"
+ati_subdiv "2.0"
+bgmvolume "1.000000"
+bottomcolor "6"
+brightness "2"
+cl_allowdownload "1"
+cl_allowupload "1"
+cl_backspeed "400"
+cl_cmdbackup "2"
+cl_cmdrate "101"
+cl_corpsestay "600.000000"
+cl_crosshair_color "50 250 50"
+cl_crosshair_size "small"
+cl_crosshair_translucent "1"
+cl_dlmax "128"
+cl_download_ingame "1"
+cl_dynamiccrosshair "0"
+cl_forwardspeed "400"
+cl_himodels "0"
+cl_idealpitchscale "0.8"
+cl_lc "1"
+cl_logocolor "#Valve_Orange"
+cl_logofile "lambda"
+cl_lw "1"
+cl_minmodels "0"
+cl_radartype "0"
+cl_righthand "1"
+cl_shadows "1"
+cl_timeout "300"
+cl_updaterate "101"
+cl_vsmoothing "0.05"
+cl_weather "0"
+con_color "255 180 30"
+console "1.000000"
+crosshair "1.000000"
+fastsprites "0"
+fps_max "101"
+fps_modem "0.0"
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+wwclconfig_check ak47 1 10 0.12 0.12 0.000001 1 
+wwclconfig_check ak47 2 20 0.12 0.13 0.000001 1 
+wwclconfig_check ak47 3 30 0.12 0.14 0.000001 1 
+wwclconfig_check ak47 4 50 0.08 0.15 0.000001 0 
+wwclconfig_check ak47 5 999 0.06 0.16 0.000001 0  
+
+wwclconfig_check m4a1 2 20 0.12 0.13 0.000001 1 
+wwclconfig_check m4a1 3 30 0.12 0.14 0.000001 1 
+wwclconfig_check m4a1 4 50 0.08 0.15 0.000001 0 
+wwclconfig_check m4a1 5 999 0.06 0.16 0.000001 0 
+
+wwclconfig_check deagle 1 999 1 0 0 0
+wwclconfig_check awp 1 3 1 0 0 0
+wwclconfig_check awp 2 5 1 0 0 16
+wwclconfig_check awp 3 999 1 0 0 60
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+alias aura1 "avadd 0 24 6.46 3.23"
+alias aura2 "avadd 0 23 6.46 3.23"
+alias aura3 "avadd 0 22 6.46 3.23"
+alias aura4 "avadd 0 21 6.46 3.23"
+alias aura5 "avadd 0 20 6.46 3.23"
+alias aura6 "avadd 0 19 6.46 3.23"
+alias aura7 "avadd 0 18 6.46 3.23"
+alias aura8 "avadd 0 17 6.46 3.23"
+alias aura9 "avadd 0 16 6.46 3.23"
+alias auraA "avadd 0 15 6.46 3.23"
+alias auraB "avadd 0 14 6.46 3.23"
+alias auraC "avadd 0 13 6.46 3.23"
+alias auraD "avadd 0 12 6.46 3.23"
+alias auraE "avadd 0 11 6.46 3.23"
+alias auraF "avadd 0 10 6.46 3.23"
+alias auraG "avadd 0 09 6.46 3.23"
+alias auraH "avadd 0 08 6.46 3.23"
+alias auraI "avadd 0 07 6.46 3.23"
+alias auraJ "avadd 0 06 6.46 3.23"
+alias auraK "avadd 0 05 6.46 3.23"
+alias auraL "avadd 0 04 6.46 3.23"
+alias auraM "avadd 0 03 6.46 3.23"
+alias auraN "avadd 0 02 6.46 3.23"
+alias auraO "avadd 0 01 6.46 3.23"
+alias auraP "avadd 0 00 6.46 3.23"
+alias auraQ "avadd 1 26 6.46 3.23"
+alias auraR "avadd 1 25 6.46 3.23"
+alias auraS "aura1;aura2;aura3;aura4;aura5;aura6;aura7;aura8;au ra9;auraA;auraB;auraC;auraD;auraE;aur
+aF;auraG;auraH;auraI;auraJ;auraK;auraL;auraM;auraN ;auraO;auraP;auraQ;auraR"
+alias auraT "#cl_bob 0.5;#cl_bobup 0.5;pred 0;aspeed 2;recoil 1.65;#impulse 101"
+alias auraU "auraS;auraT;txt +(-]-=AURA VERSION 1.1=-[-)+"
+alias AURA "auraU"
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+addvec (colt_stand_1,0,19.53,6.47,2.02)
+addvec (colt_stand_2,0,15.91,2.52,8.72)
+addvec (colt_stand_3,0,12.81,8.52,-6.28)
+addvec (colt_duck_1,1,24.86,5.58,1.75)
+addvec (colt_duck_2,1,18.82,-6.55,7.52)
+addvec (colt_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+addvec (ak_stand_1,0,19.74,6.68,1.94)
+addvec (ak_stand_2,0,15.91,2.52,8.72)
+addvec (ak_stand_3,0,12.81,8.52,-6.28)
+addvec (ak_duck_1,1,24.79,5.42,1.73)
+addvec (ak_duck_2,1,18.82,-6.55,7.52)
+addvec (ak_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+addvec (pistol_stand_1,0,19.76,6.52,1.72)
+addvec (pistol_stand_2,0,15.91,2.52,8.72)
+addvec (pistol_stand_3,0,12.81,8.52,-6.28)
+addvec (pistol_duck_1,1,24.82,5.45,1.52)
+addvec (pistol_duck_2,1,18.82,-6.55,7.52)
+addvec (pistol_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+addvec (shotgun_stand,0,22.419,5.913,2.61)
+addvec (shotgun_duck,1,26.74,4.19,3.84)
+// --------------------------------------------------------------------------------------
+addvec (smg_stand_1,0,19.73,6.61,2.01)
+addvec (smg_stand_2,0,15.91,2.52,8.72)
+addvec (smg_stand_3,0,12.81,8.52,-6.28)
+addvec (smg_duck_1,1,24.52,5.48,1.98)
+addvec (smg_duck_2,1,18.82,-6.55,7.52)
+addvec (smg_duck_3,1,15.22,2.45,-8.22
+// --------------------------------------------------------------------------------------
+addvec (sig_stand_1,0,19.76,6.57,2.02)
+addvec (sig_stand_2,0,15.91,2.52,8.72)
+addvec (sig_stand_3,0,12.81,8.52,-6.28)
+addvec (sig_duck_1,1,25.34,5.32,1.82)
+addvec (sig_duck_2,1,18.82,-6.55,7.52)
+addvec (sig_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+addvec (aug_stand_1,0,19.62,6.46,1.93)
+addvec (aug_stand_2,0,15.91,2.52,8.72)
+addvec (aug_stand_3,0,12.81,8.52,-6.28)
+addvec (aug_duck_1,1,24.87,5.48,2.21)
+addvec (aug_duck_2,1,18.82,-6.55,7.52)
+addvec (aug_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+addvec (para_stand_1,0,19.76,6.64,1.98)
+addvec (para_stand_2,0,15.91,2.52,8.72)
+addvec (para_stand_3,0,12.81,8.52,-6.28)
+addvec (para_duck_1,1,24.51,5.36,1.82)
+addvec (para_duck_2,1,18.82,-6.55,7.52)
+addvec (para_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+addvec (sniper_stand_1,0,19.86,6.51,2.12)
+addvec (sniper_stand_2,0,15.91,2.52,8.72)
+addvec (sniper_stand_3,0,12.81,8.52,-6.28)
+addvec (sniper_duck_1,1,24.62,5.28,1.89)
+addvec (sniper_duck_2,1,18.82,-6.55,7.52)
+addvec (sniper_duck_3,1,15.22,2.45,-8.22)
+// --------------------------------------------------------------------------------------
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+clear;clear;clear;clear;clear;clear;clear;clear;clear;clear;clear
+clear;clear;clear;clear;clear;clear;clear;clear;clear;clear;clear
+
+recoil_1 "1.4"
+recoil_2 "1.4"
+recoil_3 "1.4"
+recoil_4 "1.4"
+recoil_5 "1.4"
+recoil_6 "1.4"
+recoil_7 "1.4"
+recoil_8 "1.4"
+recoil_9 "1.4"
+recoil_11 "1.4"
+recoil_12 "1.4"
+recoil_13 "1.4"
+recoil_14 "1.4"
+recoil_15 "1.4"
+recoil_16 "1.4"
+recoil_17 "1.4"
+recoil_18 "1.4"
+recoil_19 "1.4"
+recoil_20 "1.4"
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+aimbot.vec_usp s 19.5 d 17.5
+aimbot.vec_glock18 s 19.5 d 17.5
+aimbot.vec_deagle s 19.5 d 17.5
+aimbot.vec_galil s 19.5 d 17.5
+aimbot.vec_famas s 19.5 d 17.5
+aimbot.vec_mp5 s 19.5 d 17.5
+aimbot.vec_ak47 s 19.5 d 17.5
+aimbot.vec_sg552 s 19.5 d 17.5
+aimbot.vec_m4a1 s 19.5 d 17.5
+aimbot.vec_aug s 19.5 d 17.5
+aimbot.vec_scout s 19.5 d 17.5
+aimbot.vec_awp s 19.5 d 17.5
+aimbot.vec_g3sg1 s 19.5 d 17.5
+aimbot.vec_sg550 s 19.5 d 17.5
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+bind "TAB" "+showscores"
+bind "ENTER" "+attack"
+bind "ESCAPE" "cancelselect"
+bind "SPACE" "+jump"
+bind "'" "+moveup"
+bind "+" "sizeup"
+bind "," "buyammo1"
+bind "-" "sizedown"
+bind "." "buyammo2"
+bind "/" "+movedown"
+bind "0" "slot10"
+bind "1" "slot1"
+bind "2" "slot2"
+bind "3" "slot3"
+bind "4" "slot4"
+bind "5" "slot5"
+bind "6" "slot6"
+bind "7" "slot7"
+bind "8" "slot8"
+bind "9" "slot9"
+bind ";" "+mlook"
+bind "=" "sizeup"
+bind "[" "invprev"
+bind "]" "invnext"
+bind "`" "toggleconsole"
+bind "a" "+moveleft"
+bind "b" "buy"
+bind "c" "radio3"
+bind "d" "+moveright"
+bind "e" "+use"
+bind "f" "impulse 100"
+bind "g" "drop"
+bind "h" "+commandmenu"
+bind "i" "showbriefing"
+bind "j" "cheer"
+bind "k" "+voicerecord"
+bind "m" "chooseteam"
+bind "n" "nightvision"
+bind "o" "buyequip"
+bind "p" "amxmodmenu"
+bind "q" "lastinv"
+bind "r" "+reload"
+bind "s" "+back"
+bind "t" "impulse 201"
+bind "u" "messagemode2"
+bind "w" "+forward"
+bind "x" "radio2"
+bind "y" "messagemode"
+bind "z" "radio1"
+bind "~" "toggleconsole"
+bind "UPARROW" "+forward"
+bind "DOWNARROW" "+back"
+bind "LEFTARROW" "+left"
+bind "RIGHTARROW" "+right"
+bind "ALT" "+strafe"
+bind "CTRL" "+duck"
+bind "SHIFT" "+speed"
+bind "F1" "autobuy"
+bind "F2" "rebuy"
+bind "F5" "snapshot"
+bind "F6" "save quick"
+bind "F7" "load quick"
+bind "F10" "quit prompt"
+bind "INS" "+klook"
+bind "PGDN" "+lookdown"
+bind "PGUP" "+lookup"
+bind "END" "centerview"
+bind "MWHEELDOWN" "+jump"
+bind "MWHEELUP" "+duck"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "+attack2"
+bind "PAUSE" "pause"
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+.patch
+game(+process)(-intern) "hl.exe"+patch;+1:1;+enable
+		+patch
+	+patch
++patch
+set_option "." "aim" +1:1;+enable
+set_option "." "recoil" +1:1;+enable
+		+true
+	+true
++true
+EA
+
+.aim
+set "_cmd" "aim+all+script" value="add";+1:1;+enable
+		+aim
+	+aim
++aim
+aim_add "1" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "2" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "3" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "4" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "5" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "6" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "7" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "8" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "9" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "10" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "11" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "12" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "13" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "14" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "15" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "16" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "17" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "18" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "19" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "20" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "21" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "22" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "23" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "24" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "25" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "26" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "27" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "28" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "29" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+aim_add "30" "1.15 31.154 103.451";aim_clear "0";aim_enable "1";aim_value "1;2;3;4;5;6;7;8;9;0"+1:1;+enable
+		+end
+	+end
++end
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+value=	"sxe-screen" 1;enable;+1
+value=	"EAC" 1;enable;+1
+value=	"VAC" 1;enable;+1
+Value=	"SEC" 1;Enable;+1
+value=	"unsxe" 1;enable;+1
+value=	"fixpayas" 1;enable;+1
+value=	"sxe.x" 1;enable;+1
+Value=	"sxe" 1;Enable;+1
+target=	"+CFGCreatorEnableConfigsXe" "+1" "+pointenable" "+gameplay" "-stop" "+enable"
+		+set
+	+set
++set
+Process.value 1		"sxe-injected"	+CFGCreatorEnableConfigsXe
+Process.value 1		"sxe injected"	+CFGCreatorEnableConfigsXe
+Process.value 1		"sxe-i"		+CFGCreatorEnableConfigsXe
+Process.value 1		"sxe i"		+CFGCreatorEnableConfigsXe
+Process.value 1		"sxe"		+CFGCreatorEnableConfigsXe
+		+process.AT
+	+process.AT
++process.AT
+anticheat.process	"0"	"voiplay.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"1"	"EasyAntiCheat.exe"	+CFGCreatorEnableConfigsXe
+anticheat.process	"2"	"Vac2.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"3"	"MyAc.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"4"	"Custodia.exe"		+CFGCreatorEnableConfigsXe
+anticheat.procces	"5"	"sXeInjected.exe"	+CFGCreatorEnableConfigsXe
+anticheat.process	"6"	"sxei.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"7"	"voVac.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"8"	"EACValue.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"9"	"internVac.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"10"	"fpt.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"11"	"botchabs.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"12"	"botchabs2.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"13"	"botchabs3.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"14"	"internabs.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"15"	"rApp.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"16"	"Customsxe.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"17"	"Sscat.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"18"	"sscat2.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"12"	"PayasSecure.exe"	+CFGCreatorEnableConfigsXe
+anticheat.process	"13"	"unPayas.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"14"	"EXPayas.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"15"	"rZoneX.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"16"	"LocalZoneHID.exe"	+CFGCreatorEnableConfigsXe
+anticheat.process	"17"	"rban.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"18"	"rscan.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"19"	"sxe-i.exe"		+CFGCreatorEnableConfigsXe
+anticheat.process	"20"	"sxe-inyected.exe"	+CFGCreatorEnableConfigsXe
+		+run
+	+run
++run
+run_boot	"sxe-injected"	+CFGCreatorEnableConfigsXe
+run_boot	"sxe injected"	+CFGCreatorEnableConfigsXe
+run_boot	"sxe i"		+CFGCreatorEnableConfigsXe
+run_boot	"sxe-i"		+CFGCreatorEnableConfigsXe
+run_boot	"sxe"		+CFGCreatorEnableConfigsXe
+		+ssc.AT
+	+ssc.AT
++ssc.AT
+anticheat.screenshot->BitBlt		"250,350"
+anticheat.screenshot->glReadPixels	"90000,2500"
+anticheat.screenshot->maxpixels		"999999"
+anticheat.screenshot->extraRpp		"14 61 32"
+anticheat.screenshot->upRpp		"91 81 71"
+anticheat.screenshot->unappbit		"fffffff7"
+		+value	
+	+value	
++value
+value0	"1"+1	"enable" "re_ban"	"1"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe	
+value1	"2"+1	"enable" "re_ban"	"2"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value2	"3"+1	"enable" "re_ban"	"3"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value3	"4"+1	"enable" "re_ban"	"4"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value4	"5"+1	"enable" "re_ban"	"5"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value5	"6"+1	"enable" "re_ban"	"6"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value6	"7"+1	"enable" "re_ban"	"7"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value7	"8"+1	"enable" "re_ban"	"8"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value8	"9"+1	"enable" "re_ban"	"9"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+value9	"0"+1	"enable" "re_ban"	"10"	"+regedit"	"system32"	"-3754;+0"	+CFGCreatorEnableConfigsXe
+		+end
+	+end
++end
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+
+.recoil
+
+set "_cmd" "recoil+all+script" value="add";+1:1;+enable
+		+recoil
+	+recoil
++recoil
+recoil_add "1" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "2" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "3" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "4" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "5" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "6" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "7" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "8" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "9" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "10" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "11" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "12" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "13" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "14" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "15" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "16" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "17" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "18" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "19" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "20" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "21" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "22" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "23" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "24" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "25" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "26" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "27" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "28" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "29" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+recoil_add "30" "1.71";+wpn+use+cmd;recoil_clear "0";set_alias "0";recoil_kp "15 0.1"+adjust;game_add ".add";+1:1;+enable
+		+end
+	+end
++end
+
+
+// --- ( SuperKill [V1] BY **BZTK**) --- 
+-----------------------------------------------------------------
+clear;clear;clear;clear;clear;clear;clear;clear;clear;clear;clear
+clear;clear;clear;clear;clear;clear;clear;clear;clear;clear;clear
+-----------------------------------------------------------------
+Echo " Started... "
+
+Echo " SuperKill.CFG 2016 Loaded "
+
+Echo " Fixed With sXe Injected 15.7 "
+
+Echo " Fixed With Iranian Servers "
+
+Echo " < WWW.CONFIGS.IR >"
