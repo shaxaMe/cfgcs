@@ -7,3 +7,4 @@ give weapon_defuser
 give weapon_m4a1
 give weapon_deagle
 give weapon_flashbang
+bind “/” kill
